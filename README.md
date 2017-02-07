@@ -2,9 +2,9 @@
 CSE 170 project
 
 ## Getting started
+```bash
+cd OpenInvite
 ```
-cd <this directory>
-```
-```
+```bash
 npm install
 ```
