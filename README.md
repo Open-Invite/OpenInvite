@@ -6,3 +6,8 @@ CSE 170 project
 cd OpenInvite
 npm install
 ```
+
+## To run locally
+```bash
+node app.js
+```
