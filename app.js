@@ -9,6 +9,8 @@ var handlebars = require('express-handlebars')
 
 var index = require('./routes/index');
 var profile = require('./routes/profile');
+var help = require('./routes/help');
+var settings = require('./routes/settings');
 // Example route
 // var user = require('./routes/user');
 
@@ -37,6 +39,8 @@ if ('development' == app.get('env')) {
 // Add routes here
 app.get('/', index.view);
 app.get('/profile', profile.view);
+app.get('/help', help.view);
+app.get('/settings', settings.view);
 // Example route
 // app.get('/users', user.list);
 
