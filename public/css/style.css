@@ -1,9 +1,7 @@
 head,body{
-  max-width:700px;
   line-height:1.6;
   font-size:18px;
   color:#444;
-  padding:0 10px;
 }
 
 h1,h2,h3{
@@ -12,4 +10,14 @@ h1,h2,h3{
 
 .profile-picture {
   border-radius: 100%;
+}
+
+.jumbotron {
+  padding: 10px;
+  width: 100%;
+  background-color: transparent;
+}
+
+.banner {
+  background-color: rgb(205, 205, 205);
 }
