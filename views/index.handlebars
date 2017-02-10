@@ -2,15 +2,47 @@
 <html>
 
 <head>
-  <title>Home</title>
+  <link href="css/bootstrap.css" rel="stylesheet"></link>
+  <link href="css/bootstrap-theme.css" rel="stylesheet"></link>
+  <link href="css/simple-sidebar.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet"></link>
+  <title>OpenInvite</title>
 </head>
 
 <body>
-  Insert home content here. <br/>
-  <a href="/">Home</a> <br/>
-  <a href="/profile">Profile</a> <br/>
-  <a href="/help">Help</a> <br/>
-  <a href="/settings">Settings</a> <br/>
+  <div id="wrapper">
+    <div id="sidebar-wrapper">
+      <ul class="sidebar-nav">
+        <li class="sidebar-brand">
+            <a href="/profile">
+              <img class="profile-picture" src="http://lorempixel.com/50/50/people/"></img>
+              Skyler Taylor
+            </a>
+        </li>
+        <hr></hr>
+        <li class="sidebar-nav-active">
+            <a href="/"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+        </li>
+        <li>
+            <a href="/events"><i class="fa fa-calendar-check-o" aria-hidden="true"></i> My Events</a>
+        </li>
+        <li>
+            <a href="/help"><i class="fa fa-question-circle" aria-hidden="true"></i> Help</a>
+        </li>
+        <li>
+            <a href="/settings"><i class="fa fa-cog" aria-hidden="true"></i> Settings</a>
+        </li>
+      </ul>
+    </div>
+
+    <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
+    Insert content here. <br/>
+
+  </div>
+  <script src="https://use.fontawesome.com/6a9c821b61.js"></script>
+  <script src="js/jquery-1.11.0.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/main.js"></script>
 </body>
 
 </html>
