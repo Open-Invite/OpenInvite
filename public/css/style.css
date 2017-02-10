@@ -21,3 +21,8 @@ h1,h2,h3{
 .banner {
   background-color: rgb(205, 205, 205);
 }
+
+.events-table {
+  word-wrap: break-word;
+  max-width: 80% !important;
+}
