@@ -31,3 +31,15 @@ h1,h2,h3{
   word-wrap: break-word;
   max-width: 80% !important;
 }
+
+p.event-attending {
+  border-style:solid;
+  border-radius: 5px;
+  color: #07ee7f;
+}
+
+p.event-cancelled {
+  border-style:solid;
+  border-radius: 5px;
+  color: #f77171;
+}
