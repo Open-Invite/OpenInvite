@@ -1,0 +1,245 @@
+{
+  "Users": [
+    {
+      "id": 0,
+      "name": "Celia Durkin",
+      "email": "",
+      "password": "",
+      "events": [],
+      "profilePicture": "http://lorempixel.com/50/50/people/"
+    },
+    {
+      "id": 1,
+      "name": "Pyae Maung",
+      "email": "",
+      "password": "",
+      "events": [],
+      "profilePicture": "http://lorempixel.com/50/50/people/"
+    },
+    {
+      "id": 2,
+      "name": "Karl Rummler",
+      "email": "",
+      "password": "",
+      "events": [],
+      "profilePicture": "http://lorempixel.com/50/50/people/"
+    },
+    {
+      "id": 3,
+      "name": "Fred Flintstone",
+      "email": "",
+      "password": "",
+      "events": [],
+      "profilePicture": "http://lorempixel.com/50/50/people/"
+    },
+    {
+      "id": 4,
+      "name": "Kristen Stewart",
+      "email": "",
+      "password": "",
+      "events": [],
+      "profilePicture": "http://lorempixel.com/50/50/people/"
+    },
+    {
+      "id": 5,
+      "name": "Hendrik Lorentz",
+      "email": "",
+      "password": "",
+      "events": [],
+      "profilePicture": "http://lorempixel.com/50/50/people/"
+    },
+    {
+      "id": 6,
+      "name": "Wally",
+      "email": "",
+      "password": "",
+      "events": [],
+      "profilePicture": "http://lorempixel.com/50/50/people/"
+    },
+    {
+      "id": 7,
+      "name": "Skyler Taylor",
+      "email": "",
+      "password": "",
+      "events": [],
+      "profilePicture": "http://lorempixel.com/50/50/people/"
+    },
+    {
+      "id": 8,
+      "name": "Nick Roberts",
+      "email": "",
+      "password": "",
+      "events": [],
+      "profilePicture": "http://lorempixel.com/50/50/people/"
+    },
+    {
+      "id": 9,
+      "name": "Alex Hermstad",
+      "email": "",
+      "password": "",
+      "events": [],
+      "profilePicture": "http://lorempixel.com/50/50/people/"
+    },
+    {
+      "id": 10,
+      "name": "Dhaivath Raghupathy",
+      "email": "",
+      "password": "",
+      "events": [],
+      "profilePicture": "http://lorempixel.com/50/50/people/"
+    },
+    {
+      "id": 11,
+      "name": "Spencer Wilson",
+      "email": "",
+      "password": "",
+      "events": [],
+      "profilePicture": "http://lorempixel.com/50/50/people/"
+    }
+  ],
+  "Events": [
+    {
+      "id": 0,
+      "name": "CSE 170 Studio",
+      "host": 0,
+      "location": "CSB 180",
+      "latitude": "",
+      "longitude": "",
+      "date": "10 Feb",
+      "time": "10:10am",
+      "going": [],
+      "cancelled": [],
+      "tags": []
+    },
+    {
+      "id": 1,
+      "name": "Absinthe Computer Vision Quest",
+      "host": 1,
+      "location": "The Lion's Share",
+      "latitude": "",
+      "longitude": "",
+      "date": "10 Feb",
+      "time": "7:30pm",
+      "going": [9],
+      "cancelled": [11],
+      "tags": []
+    },
+    {
+      "id": 2,
+      "name": "Extreme Caffeine Adventure",
+      "host": 1,
+      "location": "Lofty Coffee, Little Italy",
+      "latitude": "",
+      "longitude": "",
+      "date": "11 Feb",
+      "time": "7:00am",
+      "going": [1, 10, 9],
+      "cancelled": [11],
+      "tags": []
+    },
+    {
+      "id": 3,
+      "name": "Ironically get up before noon",
+      "host": 1,
+      "location": "The Village, UCSD",
+      "latitude": "",
+      "longitude": "",
+      "date": "11 Feb",
+      "time": "11:59am",
+      "going": [],
+      "cancelled": [],
+      "tags": []
+    },
+    {
+      "id": 4,
+      "name": "Get groceries",
+      "host": 2,
+      "location": "Whole Foods",
+      "latitude": "",
+      "longitude": "",
+      "date": "11 Feb",
+      "time": "1:00pm",
+      "going": [],
+      "cancelled": [],
+      "tags": []
+    },
+    {
+      "id": 5,
+      "name": "Act out RobotDoesX YouTube transcript",
+      "host": 8,
+      "location": "The Village East Tower, UCSD",
+      "latitude": "",
+      "longitude": "",
+      "date": "11 Feb",
+      "time": "1:01pm",
+      "going": [],
+      "cancelled": [],
+      "tags": []
+    },
+    {
+      "id": 6,
+      "name": "Conceptual photography project about medical companies",
+      "host": 8,
+      "location": "Torrey Pines Science Park",
+      "latitude": "",
+      "longitude": "",
+      "date": "11 Feb",
+      "time": "1:02pm",
+      "going": [],
+      "cancelled": [],
+      "tags": []
+    },
+    {
+      "id": 7,
+      "name": "Lecture on holographic quantum error correcting codes",
+      "host": 3,
+      "location": "twitch.tv",
+      "latitude": "",
+      "longitude": "",
+      "date": "11 Feb",
+      "time": "1:03pm",
+      "going": [],
+      "cancelled": [],
+      "tags": []
+    },
+    {
+      "id": 8,
+      "name": "Discuss new AI paper",
+      "host": 4,
+      "location": "Twitter",
+      "latitude": "",
+      "longitude": "",
+      "date": "11 Feb",
+      "time": "1:04pm",
+      "going": [],
+      "cancelled": [],
+      "tags": []
+    },
+    {
+      "id": 9,
+      "name": "Publically protest the state of luminiferous aether research",
+      "host": 5,
+      "location": "UTC",
+      "latitude": "",
+      "longitude": "",
+      "date": "11 Feb",
+      "time": "1:05pm",
+      "going": [],
+      "cancelled": [],
+      "tags": []
+    },
+    {
+      "id": 10,
+      "name": "Lab Meeting",
+      "host": 6,
+      "location": "CSE 4140",
+      "latitude": "",
+      "longitude": "",
+      "date": "13 Feb",
+      "time": "4:00pm",
+      "going": [],
+      "cancelled": [],
+      "tags": []
+    }
+  ]
+}
