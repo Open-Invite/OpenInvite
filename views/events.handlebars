@@ -56,90 +56,43 @@
 
       <table class="table table-hover events-table">
 
+        {{#each events}}
         <thead>
           <tr>
-            <th>Absinthe Computer Vision Quest</th>
+            <th>{{name}}</th>
             <th></th>
-            <th>The Lion's Share</th>
+            <th>{{location}}</th>
             <th></th>
-            <th>10 Feb, 7:30pm</th>
+            <th>{{date}}, <br/> {{time}}</th>
           </tr>
         </thead>
         <tbody>
+          {{#each going}}
           <tr>
             <td></td>
             <td>
               <img class="profile-picture" src="http://lorempixel.com/20/20/people/"></img>
-              Alex Hermstad
+              {{name}}
             </td>
             <td></td>
             <td><p class="event-attending">Attending</p></td>
             <td></td>
           </tr>
+          {{/each}}
+          {{#each cancelled}}
           <tr>
             <td></td>
             <td>
               <img class="profile-picture" src="http://lorempixel.com/20/20/people/"></img>
-              Spencer Wilson
+              {{name}}
             </td>
             <td></td>
             <td><p class="event-cancelled">Cancelled</p></td>
             <td></td>
           </tr>
+          {{/each}}
         </tbody>
-
-        <thead>
-          <tr>
-            <th>Extreme Caffeine Adventure</th>
-            <th></th>
-            <th>Lofty Coffee, Little Italy</th>
-            <th></th>
-            <th>11 Feb, 7:00am</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td></td>
-            <td>
-              <img class="profile-picture" src="http://lorempixel.com/20/20/people/"></img>
-              Alex Hermstad
-            </td>
-            <td></td>
-            <td><p class="event-attending">Attending</p></td>
-            <td></td>
-
-          </tr>
-          <tr>
-            <td></td>
-            <td>
-              <img class="profile-picture" src="http://lorempixel.com/20/20/people/"></img>
-              Dhaivath Raghupathy
-            </td>
-            <td></td>
-            <td><p class="event-attending">Attending</p></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td></td>
-            <td>
-              <img class="profile-picture" src="http://lorempixel.com/20/20/people/"></img>
-              Pyae Maung
-            </td>
-            <td></td>
-            <td><p class="event-attending">Attending</p></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td></td>
-            <td>
-              <img class="profile-picture" src="http://lorempixel.com/20/20/people/"></img>
-              Spencer Wilson
-            </td>
-            <td></td>
-            <td><p class="event-cancelled">Cancelled</p></td>
-            <td></td>
-          </tr>
-        </tbody>
+        {{/each}}
 
       </table>
 

@@ -1,5 +1,5 @@
 {
-  "Users": [
+  "users": [
     {
       "id": 0,
       "name": "Celia Durkin",
@@ -97,11 +97,14 @@
       "profilePicture": "http://lorempixel.com/50/50/people/"
     }
   ],
-  "Events": [
+  "events": [
     {
       "id": 0,
       "name": "CSE 170 Studio",
-      "host": 0,
+      "host": {
+        "id": 0,
+        "name":"Celia Durkin"
+      },
       "location": "CSB 180",
       "latitude": "",
       "longitude": "",
@@ -114,33 +117,71 @@
     {
       "id": 1,
       "name": "Absinthe Computer Vision Quest",
-      "host": 1,
+      "host": {
+        "id": 7,
+        "name":"Skyler Taylor"
+      },
       "location": "The Lion's Share",
       "latitude": "",
       "longitude": "",
       "date": "10 Feb",
       "time": "7:30pm",
-      "going": [9],
-      "cancelled": [11],
+      "going": [
+        {
+          "name": "Alex Hermstad",
+          "id": 9
+        }
+      ],
+      "cancelled": [
+        {
+          "name": "Spencer Wilson",
+          "id": 11
+        }
+      ],
       "tags": []
     },
     {
       "id": 2,
       "name": "Extreme Caffeine Adventure",
-      "host": 1,
+      "host": {
+        "id": 7,
+        "name":"Skyler Taylor"
+      },
       "location": "Lofty Coffee, Little Italy",
       "latitude": "",
       "longitude": "",
       "date": "11 Feb",
       "time": "7:00am",
       "going": [1, 10, 9],
-      "cancelled": [11],
+      "going": [
+        {
+          "name": "Pyae Maung",
+          "id": 1
+        },
+        {
+          "name": "Dhaivath Raghupathy",
+          "id": 10
+        },
+        {
+          "name": "Alex Hermstad",
+          "id": 9
+        }
+      ],
+      "cancelled": [
+        {
+          "name": "Spencer Wilson",
+          "id": 11
+        }
+      ],
       "tags": []
     },
     {
       "id": 3,
       "name": "Ironically get up before noon",
-      "host": 1,
+      "host": {
+        "id": 1,
+        "name":"Pyae Maung"
+      },
       "location": "The Village, UCSD",
       "latitude": "",
       "longitude": "",
@@ -153,7 +194,10 @@
     {
       "id": 4,
       "name": "Get groceries",
-      "host": 2,
+      "host": {
+        "id": 2,
+        "name":"Karl Rummler"
+      },
       "location": "Whole Foods",
       "latitude": "",
       "longitude": "",
@@ -166,7 +210,10 @@
     {
       "id": 5,
       "name": "Act out RobotDoesX YouTube transcript",
-      "host": 8,
+      "host": {
+        "id": 8,
+        "name":"Nick Roberts"
+      },
       "location": "The Village East Tower, UCSD",
       "latitude": "",
       "longitude": "",
@@ -178,60 +225,11 @@
     },
     {
       "id": 6,
-      "name": "Conceptual photography project about medical companies",
-      "host": 8,
-      "location": "Torrey Pines Science Park",
-      "latitude": "",
-      "longitude": "",
-      "date": "11 Feb",
-      "time": "1:02pm",
-      "going": [],
-      "cancelled": [],
-      "tags": []
-    },
-    {
-      "id": 7,
-      "name": "Lecture on holographic quantum error correcting codes",
-      "host": 3,
-      "location": "twitch.tv",
-      "latitude": "",
-      "longitude": "",
-      "date": "11 Feb",
-      "time": "1:03pm",
-      "going": [],
-      "cancelled": [],
-      "tags": []
-    },
-    {
-      "id": 8,
-      "name": "Discuss new AI paper",
-      "host": 4,
-      "location": "Twitter",
-      "latitude": "",
-      "longitude": "",
-      "date": "11 Feb",
-      "time": "1:04pm",
-      "going": [],
-      "cancelled": [],
-      "tags": []
-    },
-    {
-      "id": 9,
-      "name": "Publically protest the state of luminiferous aether research",
-      "host": 5,
-      "location": "UTC",
-      "latitude": "",
-      "longitude": "",
-      "date": "11 Feb",
-      "time": "1:05pm",
-      "going": [],
-      "cancelled": [],
-      "tags": []
-    },
-    {
-      "id": 10,
       "name": "Lab Meeting",
-      "host": 6,
+      "host": {
+        "id": 6,
+        "name":"Wally"
+      },
       "location": "CSE 4140",
       "latitude": "",
       "longitude": "",
