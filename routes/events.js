@@ -1,3 +1,5 @@
+var data = require('../data.json');
+
 /*
  * GET events page.
  */
