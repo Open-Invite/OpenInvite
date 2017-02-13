@@ -78,6 +78,7 @@
             <td><p class="event-attending">Attending</p></td>
             <td></td>
           </tr>
+          {{else}}
           {{/each}}
           {{#each cancelled}}
           <tr>
@@ -90,8 +91,11 @@
             <td><p class="event-cancelled">Cancelled</p></td>
             <td></td>
           </tr>
+          {{else}}
           {{/each}}
         </tbody>
+        {{else}}
+        You haven't made any events
         {{/each}}
 
       </table>
