@@ -5,6 +5,8 @@
       "name": "Celia Durkin",
       "email": "",
       "password": "",
+      "latitude": 0,
+      "longitude": 0,
       "events": [],
       "profilePicture": "http://lorempixel.com/50/50/people/"
     },
@@ -13,6 +15,8 @@
       "name": "Pyae Maung",
       "email": "",
       "password": "",
+      "latitude": 0,
+      "longitude": 0,
       "events": [],
       "profilePicture": "http://lorempixel.com/50/50/people/"
     },
@@ -21,6 +25,8 @@
       "name": "Karl Rummler",
       "email": "",
       "password": "",
+      "latitude": 0,
+      "longitude": 0,
       "events": [],
       "profilePicture": "http://lorempixel.com/50/50/people/"
     },
@@ -29,6 +35,8 @@
       "name": "Fred Flintstone",
       "email": "",
       "password": "",
+      "latitude": 0,
+      "longitude": 0,
       "events": [],
       "profilePicture": "http://lorempixel.com/50/50/people/"
     },
@@ -37,6 +45,8 @@
       "name": "Kristen Stewart",
       "email": "",
       "password": "",
+      "latitude": 0,
+      "longitude": 0,
       "events": [],
       "profilePicture": "http://lorempixel.com/50/50/people/"
     },
@@ -45,6 +55,8 @@
       "name": "Hendrik Lorentz",
       "email": "",
       "password": "",
+      "latitude": 0,
+      "longitude": 0,
       "events": [],
       "profilePicture": "http://lorempixel.com/50/50/people/"
     },
@@ -53,6 +65,8 @@
       "name": "Wally",
       "email": "",
       "password": "",
+      "latitude": 0,
+      "longitude": 0,
       "events": [],
       "profilePicture": "http://lorempixel.com/50/50/people/"
     },
@@ -61,6 +75,8 @@
       "name": "Skyler Taylor",
       "email": "",
       "password": "",
+      "latitude": 0,
+      "longitude": 0,
       "events": [],
       "profilePicture": "http://lorempixel.com/50/50/people/"
     },
@@ -69,6 +85,8 @@
       "name": "Nick Roberts",
       "email": "",
       "password": "",
+      "latitude": 0,
+      "longitude": 0,
       "events": [],
       "profilePicture": "http://lorempixel.com/50/50/people/"
     },
@@ -77,6 +95,8 @@
       "name": "Alex Hermstad",
       "email": "",
       "password": "",
+      "latitude": 0,
+      "longitude": 0,
       "events": [],
       "profilePicture": "http://lorempixel.com/50/50/people/"
     },
@@ -85,6 +105,8 @@
       "name": "Dhaivath Raghupathy",
       "email": "",
       "password": "",
+      "latitude": 0,
+      "longitude": 0,
       "events": [],
       "profilePicture": "http://lorempixel.com/50/50/people/"
     },
@@ -93,6 +115,8 @@
       "name": "Spencer Wilson",
       "email": "",
       "password": "",
+      "latitude": 0,
+      "longitude": 0,
       "events": [],
       "profilePicture": "http://lorempixel.com/50/50/people/"
     }
@@ -106,8 +130,8 @@
         "name":"Celia Durkin"
       },
       "location": "CSB 180",
-      "latitude": "",
-      "longitude": "",
+      "latitude": 0,
+      "longitude": 0,
       "date": "10 Feb",
       "time": "10:10am",
       "going": [],
@@ -122,8 +146,8 @@
         "name":"Skyler Taylor"
       },
       "location": "The Lion's Share",
-      "latitude": "",
-      "longitude": "",
+      "latitude": 0,
+      "longitude": 0,
       "date": "10 Feb",
       "time": "7:30pm",
       "going": [
@@ -148,8 +172,8 @@
         "name":"Skyler Taylor"
       },
       "location": "Lofty Coffee, Little Italy",
-      "latitude": "",
-      "longitude": "",
+      "latitude": 0,
+      "longitude": 0,
       "date": "11 Feb",
       "time": "7:00am",
       "going": [1, 10, 9],
@@ -183,8 +207,8 @@
         "name":"Pyae Maung"
       },
       "location": "The Village, UCSD",
-      "latitude": "",
-      "longitude": "",
+      "latitude": 0,
+      "longitude": 0,
       "date": "11 Feb",
       "time": "11:59am",
       "going": [],
@@ -199,8 +223,8 @@
         "name":"Karl Rummler"
       },
       "location": "Whole Foods",
-      "latitude": "",
-      "longitude": "",
+      "latitude": 0,
+      "longitude": 0,
       "date": "11 Feb",
       "time": "1:00pm",
       "going": [],
@@ -215,8 +239,8 @@
         "name":"Nick Roberts"
       },
       "location": "The Village East Tower, UCSD",
-      "latitude": "",
-      "longitude": "",
+      "latitude": 0,
+      "longitude": 0,
       "date": "11 Feb",
       "time": "1:01pm",
       "going": [],
@@ -231,8 +255,8 @@
         "name":"Wally"
       },
       "location": "CSE 4140",
-      "latitude": "",
-      "longitude": "",
+      "latitude": 0,
+      "longitude": 0,
       "date": "13 Feb",
       "time": "4:00pm",
       "going": [],
