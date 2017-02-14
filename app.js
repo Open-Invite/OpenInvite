@@ -10,6 +10,7 @@ var handlebars = require('express-handlebars')
 var index = require('./routes/index');
 var profile = require('./routes/profile');
 var events = require('./routes/events');
+var culture = require('./routes/culture');
 var help = require('./routes/help');
 // Example route
 // var user = require('./routes/user');
@@ -40,6 +41,7 @@ if ('development' == app.get('env')) {
 app.get('/', index.view);
 app.get('/profile', profile.view);
 app.get('/events', events.view);
+app.get('/culture', culture.view);
 app.get('/help', help.view);
 // Example route
 // app.get('/users', user.list);
