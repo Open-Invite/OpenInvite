@@ -17,6 +17,10 @@ h1,h2,h3{
   margin-left: 15px;
 }
 
+#culture {
+  text-align: center;
+}
+
 .profile-picture {
   border-radius: 100%;
 }
