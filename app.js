@@ -11,7 +11,6 @@ var index = require('./routes/index');
 var profile = require('./routes/profile');
 var events = require('./routes/events');
 var help = require('./routes/help');
-var settings = require('./routes/settings');
 // Example route
 // var user = require('./routes/user');
 
@@ -42,7 +41,6 @@ app.get('/', index.view);
 app.get('/profile', profile.view);
 app.get('/events', events.view);
 app.get('/help', help.view);
-app.get('/settings', settings.view);
 // Example route
 // app.get('/users', user.list);
 
