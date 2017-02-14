@@ -2,7 +2,8 @@
   "profile": {
     "id": 7,
     "name": "Skyler Taylor",
-    "email": "",
+    "username": "SkylerDaBoss",
+    "email": "SexySky@hotmale.com",
     "password": "",
     "latitude": 0,
     "longitude": 0,
@@ -14,6 +15,7 @@
     {
       "id": 0,
       "name": "Celia Durkin",
+      "username": "",
       "email": "",
       "password": "",
       "latitude": 0,
@@ -25,6 +27,7 @@
     {
       "id": 1,
       "name": "Pyae Maung",
+      "username": "",
       "email": "",
       "password": "",
       "latitude": 0,
@@ -36,6 +39,7 @@
     {
       "id": 2,
       "name": "Karl Rummler",
+      "username": "",
       "email": "",
       "password": "",
       "latitude": 0,
@@ -47,6 +51,7 @@
     {
       "id": 3,
       "name": "Fred Flintstone",
+      "username": "",
       "email": "",
       "password": "",
       "latitude": 0,
@@ -58,6 +63,7 @@
     {
       "id": 4,
       "name": "Kristen Stewart",
+      "username": "",
       "email": "",
       "password": "",
       "latitude": 0,
@@ -69,6 +75,7 @@
     {
       "id": 5,
       "name": "Hendrik Lorentz",
+      "username": "",
       "email": "",
       "password": "",
       "latitude": 0,
@@ -80,6 +87,7 @@
     {
       "id": 6,
       "name": "Wally",
+      "username": "",
       "email": "",
       "password": "",
       "latitude": 0,
@@ -91,7 +99,8 @@
     {
       "id": 7,
       "name": "Skyler Taylor",
-      "email": "",
+      "username": "SkylerDaBoss",
+      "email": "SexySky@hotmale.com",
       "password": "",
       "latitude": 0,
       "longitude": 0,
@@ -102,6 +111,7 @@
     {
       "id": 8,
       "name": "Nick Roberts",
+      "username": "",
       "email": "",
       "password": "",
       "latitude": 0,
@@ -113,6 +123,7 @@
     {
       "id": 9,
       "name": "Alex Hermstad",
+      "username": "",
       "email": "",
       "password": "",
       "latitude": 0,
@@ -124,6 +135,7 @@
     {
       "id": 10,
       "name": "Dhaivath Raghupathy",
+      "username": "",
       "email": "",
       "password": "",
       "latitude": 0,
@@ -135,6 +147,7 @@
     {
       "id": 11,
       "name": "Spencer Wilson",
+      "username": "",
       "email": "",
       "password": "",
       "latitude": 0,
