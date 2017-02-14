@@ -40,7 +40,7 @@
       <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">
         <i class="fa fa-bars" aria-hidden="true"></i>
       </a>
-      <button style="float: right" type="button" class="btn btn-default">
+      <button onclick="document.getElementById('id01').style.display='block'" style="float: right" type="button" class="btn btn-default">
           <i aria-hidden="true"></i> Edit
         </button>
       <div class="jumbotron text-center">
@@ -55,6 +55,58 @@
     		<h3> La Jolla, California </h3>
     	</div>
     </div>
+
+    <!--login-->
+<!-- Button to open the modal login form 
+<button onclick="document.getElementById('id01').style.display='block'">Login</button>-->
+
+<!-- The Modal -->
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+
+  <!-- Modal Content -->
+  <form class="modal-content animate" action="action_page.php">
+    <div class="imgcontainer">
+      <img src="http://lorempixel.com/100/100/people/" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <div>
+      <label><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+      </div>
+
+      <div>
+      <label><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+      </div>
+
+      <div>
+      <label><b>Email    </b></label>
+      <input type="text" placeholder="Enter Email" name="mail" required>
+      </div>
+
+      <div>
+      <button type="submit">Save</button>
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      </div>
+
+    </div>
+  </form>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   </div>
   <script src="https://use.fontawesome.com/6a9c821b61.js"></script>
