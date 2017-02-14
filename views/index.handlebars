@@ -16,10 +16,10 @@
     <div id="sidebar-wrapper">
       <ul class="sidebar-nav">
         <li class="sidebar-brand">
-            <a href="/profile">
-              <img class="profile-picture" src="http://lorempixel.com/50/50/people/"></img>
-              Skyler Taylor
-            </a>
+          <a href="/profile">
+            <img class="profile-picture" src="{{profile.profilePicture}}"></img>
+            {{profile.name}}
+          </a>
         </li>
         <hr></hr>
         <li class="sidebar-nav-active">
@@ -71,7 +71,7 @@
       </div><!-- /.row -->
 
       <br/>
-
+      <!--
       <table class="table table-hover events-table">
         <thead>
           <tr>
@@ -100,18 +100,35 @@
 
         </tbody>
       </table>
+    -->
 
     </div>
 
 
+    {{#each events}}
+    <div class="well well-sm event-item">
+      <div class="event-item-left">
+        <button type="button" class="btn btn-default attend-button">
+          I'm going
+        </button>
+      </div>
+      <div class="event-item-right">
+        <h4 class="event-item-title">{{name}}</h4>
+        <h5 class="event-item-subtitle text-muted">{{location}} <br/> {{date}}, {{time}}</h5>
+        <h6 class="event-item-subtitle mb-2 text-muted">{{host.name}}</h6>
+        <!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+      </div>
+    </div>
+    {{/each}}
+
   </div>
-  
+
 <!-- The Modal (contains the Sign Up form) -->
 <div id="eventPopUp" class="modal">
     <span onclick="document.getElementById('eventPopUp').style.display='none'" class="close" title="Close Modal">&times;</span>
-    
+
   <form class="modal-content animate" action="action_page.php">
-        
+
     <div class="container">
             <label><b>Title</b></label>
             <input type="text" placeholder="My Awesome Event" name="title" required>
@@ -125,8 +142,8 @@
   <form>
     		<input type="radio" name="am/pm" value="AM" checked> AM
     		<input type="radio" name="am/pm" value="PM"> PM<br>
-  </form> 
-       
+  </form>
+
         <p>By creating an event you agree to our <a href="#">Terms & Privacy</a>.</p>
         <div class="clearfix">
           <button type="button" onclick="document.getElementById('eventPopUp').style.display='none'" class="cancelbtn">Cancel</button>

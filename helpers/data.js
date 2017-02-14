@@ -71,6 +71,8 @@ module.exports = {
     existingOiUser.latitude = oiUser.latitude;
     existingOiUser.longitude = oiUser.longitude;
     existingOiUser.profilePicture = oiUser.profilePicture;
+
+    data.profile = existingOiUser;
     console.log(data)
     return;
   }

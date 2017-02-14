@@ -1,6 +1,8 @@
+var data = require('../data.json');
+
 /*
  * GET culture page.
  */
 exports.view = function(req, res){
-  res.render('culture', {});
+  res.render('culture', data);
 }

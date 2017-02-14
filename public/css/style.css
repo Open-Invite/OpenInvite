@@ -13,6 +13,14 @@ h1,h2,h3{
   z-index: 100;
 }
 
+#FAQ {
+  margin-left: 15px;
+}
+
+#culture {
+  text-align: center;
+}
+
 .profile-picture {
   border-radius: 100%;
 }
@@ -72,7 +80,7 @@ p.event-cancelled {
     /* Position it in the top right corner outside of the modal */
     position: absolute;
     right: 40px;
-    top: 40; 
+    top: 40;
     color: #000;
     font-size: 35px;
     font-weight: bold;
@@ -85,7 +93,7 @@ p.event-cancelled {
     cursor: pointer;
 }
 
-/* Add Zoom Animation 
+/* Add Zoom Animation
 .animate {
     -webkit-animation: animatezoom 0.6s;
     animation: animatezoom 0.6s
@@ -93,12 +101,12 @@ p.event-cancelled {
 
 /*
 @-webkit-keyframes animatezoom {
-    from {-webkit-transform: scale(0)} 
+    from {-webkit-transform: scale(0)}
     to {-webkit-transform: scale(1)}
 }
 
 @keyframes animatezoom {
-    from {transform: scale(0)} 
+    from {transform: scale(0)}
     to {transform: scale(1)}
 }*/
 
@@ -149,4 +157,21 @@ img.avatar {
 .container {
     padding: 16px;
 
+}
+
+.well {
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: right;
+}
+
+.event-item-left {
+  left:0;
+  float: left;
+  width: 30%;
+}
+
+.event-item-right {
+  right:0;
+  height:inherit;
 }
