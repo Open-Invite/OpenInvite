@@ -13,6 +13,10 @@ h1,h2,h3{
   z-index: 100;
 }
 
+#FAQ {
+  margin-left: 15px;
+}
+
 .profile-picture {
   border-radius: 100%;
 }
