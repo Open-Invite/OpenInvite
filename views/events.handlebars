@@ -6,6 +6,7 @@
   <link href="css/bootstrap-theme.css" rel="stylesheet"></link>
   <link href="css/simple-sidebar.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet"></link>
+  <link href="css/popUpStyle.css" rel="stylesheet"></link>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
   <title>OpenInvite</title>
 </head>
@@ -43,7 +44,8 @@
 
       <div class="jumbotron text-center">
         <h1>OpenInvite</h1>
-        <button type="button" class="btn btn-default">
+		<!-- Button to open the modal -->
+		<button onclick="document.getElementById('eventPopUp').style.display='block'" type="button" class="btn btn-default">
           <i class="fa fa-plus-square" aria-hidden="true"></i> Create Event
         </button>
       </div>
@@ -104,11 +106,45 @@
 
 
   </div>
+  
+  
+  <!-- The Modal (contains the Sign Up form) -->
+<div id="eventPopUp" class="modal">
+    <span onclick="document.getElementById('eventPopUp').style.display='none'" class="close" title="Close Modal">&times;</span>
+    
+  <form class="modal-content animate" action="action_page.php">
+        
+    <div class="container">
+            <label><b>Title</b></label>
+            <input type="text" placeholder="My Awesome Event" name="title" required>
+            <label><b>Location</b></label>
+            <input type="text" placeholder="@My Place" name="loc" required>
+            <label><b>Description</b></label>
+            <input type="text" placeholder="Come to My Awesome Event" name="descr" required>
+      <br>
+      <label><b>Date and Time</b></label>
+            <input type="text" placeholder="4 Feb, 5:00" name="time" required>
+  <form>
+    		<input type="radio" name="am/pm" value="AM" checked> AM
+    		<input type="radio" name="am/pm" value="PM"> PM<br>
+  </form> 
+       
+        <p>By creating an event you agree to our <a href="#">Terms & Privacy</a>.</p>
+        <div class="clearfix">
+          <button type="button" onclick="document.getElementById('eventPopUp').style.display='none'" class="cancelbtn">Cancel</button>
+          <button type="submit" class="signupbtn">Creat Your Event</button>
+        </div>
+      </div>
+    </form>
+</div>
+  
+  
 
   <script src="https://use.fontawesome.com/6a9c821b61.js"></script>
   <script src="js/jquery-1.11.0.js"></script>
   <script src="js/bootstrap.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/popUp.js"></script>
 </body>
 
 </html>
