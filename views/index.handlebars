@@ -45,7 +45,7 @@
       <div class="jumbotron text-center">
         <h1>OpenInvite</h1>
 		<!-- Button to open the modal -->
-		<button onclick="document.getElementById('eventPopUp').style.display='block'" type="button" class="btn btn-default">
+		<button onclick="document.getElementById('eventPopUp').style.display='block'" type="button" class="btn btn-default" id="createEventButton">
           <i class="fa fa-plus-square" aria-hidden="true"></i> Create Event
         </button>
       </div>
@@ -146,8 +146,8 @@
 
         <p>By creating an event you agree to our <a href="#">Terms & Privacy</a>.</p>
         <div class="clearfix">
-          <button type="button" onclick="document.getElementById('eventPopUp').style.display='none'" class="cancelbtn">Cancel</button>
-          <button type="submit" class="signupbtn">Creat Your Event</button>
+          <button type="button" onclick="document.getElementById('eventPopUp').style.display='none'" class="cancelbtn" id="cancelNewEvent">Cancel</button>
+          <button type="submit" class="signupbtn" id="submitNewEvent">Creat Your Event</button>
         </div>
       </div>
     </form>
