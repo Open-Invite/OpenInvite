@@ -4,7 +4,10 @@ var data = require('../data.json');
  * GET events page.
  */
 exports.view = function(req, res){
-  var userData = {"events": []};
+  var userData = {
+    "events": [],
+    "profile": data.profile
+  };
   for(var i = 0; i < data.events.length; i++){
 
     // Only use Skyler's events (assume logged in user is Skyler)

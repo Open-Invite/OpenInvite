@@ -1,4 +1,15 @@
 {
+  "profile": {
+    "id": 7,
+    "name": "Skyler Taylor",
+    "email": "",
+    "password": "",
+    "latitude": 0,
+    "longitude": 0,
+    "location": "La Jolla, CA",
+    "events": [],
+    "profilePicture": "http://lorempixel.com/50/50/people/"
+  },
   "users": [
     {
       "id": 0,
@@ -7,6 +18,7 @@
       "password": "",
       "latitude": 0,
       "longitude": 0,
+      "location": "La Jolla, CA",
       "events": [],
       "profilePicture": "http://lorempixel.com/50/50/people/"
     },
@@ -17,6 +29,7 @@
       "password": "",
       "latitude": 0,
       "longitude": 0,
+      "location": "La Jolla, CA",
       "events": [],
       "profilePicture": "http://lorempixel.com/50/50/people/"
     },
@@ -27,6 +40,7 @@
       "password": "",
       "latitude": 0,
       "longitude": 0,
+      "location": "La Jolla, CA",
       "events": [],
       "profilePicture": "http://lorempixel.com/50/50/people/"
     },
@@ -37,6 +51,7 @@
       "password": "",
       "latitude": 0,
       "longitude": 0,
+      "location": "La Jolla, CA",
       "events": [],
       "profilePicture": "http://lorempixel.com/50/50/people/"
     },
@@ -47,6 +62,7 @@
       "password": "",
       "latitude": 0,
       "longitude": 0,
+      "location": "La Jolla, CA",
       "events": [],
       "profilePicture": "http://lorempixel.com/50/50/people/"
     },
@@ -57,6 +73,7 @@
       "password": "",
       "latitude": 0,
       "longitude": 0,
+      "location": "La Jolla, CA",
       "events": [],
       "profilePicture": "http://lorempixel.com/50/50/people/"
     },
@@ -67,6 +84,7 @@
       "password": "",
       "latitude": 0,
       "longitude": 0,
+      "location": "La Jolla, CA",
       "events": [],
       "profilePicture": "http://lorempixel.com/50/50/people/"
     },
@@ -77,6 +95,7 @@
       "password": "",
       "latitude": 0,
       "longitude": 0,
+      "location": "La Jolla, CA",
       "events": [],
       "profilePicture": "http://lorempixel.com/50/50/people/"
     },
@@ -87,6 +106,7 @@
       "password": "",
       "latitude": 0,
       "longitude": 0,
+      "location": "La Jolla, CA",
       "events": [],
       "profilePicture": "http://lorempixel.com/50/50/people/"
     },
@@ -97,6 +117,7 @@
       "password": "",
       "latitude": 0,
       "longitude": 0,
+      "location": "La Jolla, CA",
       "events": [],
       "profilePicture": "http://lorempixel.com/50/50/people/"
     },
@@ -107,6 +128,7 @@
       "password": "",
       "latitude": 0,
       "longitude": 0,
+      "location": "La Jolla, CA",
       "events": [],
       "profilePicture": "http://lorempixel.com/50/50/people/"
     },
@@ -117,6 +139,7 @@
       "password": "",
       "latitude": 0,
       "longitude": 0,
+      "location": "La Jolla, CA",
       "events": [],
       "profilePicture": "http://lorempixel.com/50/50/people/"
     }
