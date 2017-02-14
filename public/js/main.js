@@ -25,8 +25,8 @@ var lat;
 var lon;
 
 function showPosition(position) {
-    lat = position.coords.latitude;
-    lon = position.coords.longitude;
+  lat = position.coords.latitude;
+  lon = position.coords.longitude;
 
-    console.log(lat + ", " + lon);
+  console.log(lat + ", " + lon);
 }
