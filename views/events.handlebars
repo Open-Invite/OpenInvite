@@ -102,12 +102,15 @@
 
       </table>
       -->
-
+      {{#each events}}
       <div class="well well-sm my-event-item">
         <div class="my-event-item-left">
-          <button type="button" class="btn btn-default attend-button">
-            I'm going
-          </button>
+          <h4 class="my-event-item-title">Going</h4>
+          <h5 class="my-event-item-subtitle mb-2 text-muted">
+          {{#each going}}
+          {{name}}<br/><br/>
+          {{/each}}
+        </h5>
         </div>
         <div class="my-event-item-right">
           <h4 class="my-event-item-title">{{name}}</h4>
@@ -116,6 +119,7 @@
           <!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
         </div>
       </div>
+      {{/each}}
 
     </div>
 
