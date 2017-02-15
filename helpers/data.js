@@ -3,7 +3,7 @@ var data = require("../data.json");
 module.exports = {
 
   /*
-   * Excludes the current user's events
+   * Excludes the current user's events, returns event list
    */
   filterEventsByOtherUsers: function(events, currentUser) {
     var newEventsList = [];
@@ -17,9 +17,23 @@ module.exports = {
   },
 
   /*
-   * Excludes events outside of radius
+   * Excludes events outside of radius, returns event list
    */
   filterEventsByLocation: function(events, radius) {
+
+  },
+
+  /*
+   * Include events starting with the string in search, returns event list
+   */
+  filterEventsBySearchQuery: function(events, search) {
+
+  },
+
+  /*
+   * Sort events by how soon they are, returns event list
+   */
+  sortEventsByTime: function(events) {
 
   },
 
