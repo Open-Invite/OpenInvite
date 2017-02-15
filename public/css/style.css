@@ -202,3 +202,21 @@ img.avatar {
   height:inherit;
   height: 100%;
 }
+
+
+.areas-of-interest__gallery {
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    text-align: center;
+}
+
+
+.areas-of-interest__image {
+    /*max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;*/
+    display: block;
+    margin: auto;
+    width: 40%;
+}
