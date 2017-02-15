@@ -9,7 +9,8 @@ exports.view = function(req, res){
 
   var postData = {
     "id": data.profile.id,
-    "name": data.profile.name,
+    "name": req.body.name,
+    "location": req.body.location,
     "username": req.body.username,
     "email": req.body.email,
     "password": req.body.password,

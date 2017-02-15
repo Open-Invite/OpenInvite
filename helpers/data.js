@@ -68,6 +68,7 @@ module.exports = {
     existingOiUser.name = oiUser.name;
     existingOiUser.email = oiUser.email;
     existingOiUser.username = oiUser.username;
+    existingOiUser.location = oiUser.location;
     existingOiUser.password = oiUser.password;
     existingOiUser.latitude = oiUser.latitude;
     existingOiUser.longitude = oiUser.longitude;

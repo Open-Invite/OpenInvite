@@ -78,18 +78,28 @@
 
     <div class="container">
       <div>
-      <label><b>Username</b></label>
-      <input type="text" placeholder="Enter Username" name="username" required>
+      <label><b>Name</b></label>
+      <input type="text" placeholder="Enter Name" name="name" value="{{profile.name}}" required>
       </div>
 
       <div>
-      <label><b>Email    </b></label>
-      <input type="text" placeholder="Enter Email" name="email" required>
+      <label><b>Location</b></label>
+      <input type="text" placeholder="Enter Location" name="location" value="{{profile.location}}" required>
+      </div>
+
+      <div>
+      <label><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="username" value="{{profile.username}}" required>
+      </div>
+
+      <div>
+      <label><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" value="{{profile.email}}" required>
       </div>
 
       <div>
       <label><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="password" required>
+      <input type="password" placeholder="Enter Password" name="password" value="{{profile.password}}" required>
       </div>
 
       <div class="clearfix">
