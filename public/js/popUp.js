@@ -1,22 +1,16 @@
 // Get the modal
 var modal = document.getElementById('eventPopUp');
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-}
-
-
 // Get the modal
-var modal = document.getElementById('id01');
+var modalL = document.getElementById('id01');
 
 // When the user clicks anywhere outside of the modal, close it
+
 window.onclick = function(event) {
     if (event.target == modal) {
         modal.style.display = "none";
     }
+	else if(event.target == modalL) {
+        modalL.style.display = "none";
+    }
 }
-
 
