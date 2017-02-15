@@ -86,6 +86,8 @@ p.event-cancelled {
     font-weight: bold;
 }
 
+.clearfix
+
 /* Close button on hover */
 .close:hover,
 .close:focus {
@@ -135,12 +137,23 @@ button {
     cursor: pointer;
 }
 
+
+/* Extra style for the save button (green) */
+.savebtn {
+    width: 48% !important;
+    padding: 10px 18px !important;
+    background-color: #4CAF50 !important;
+    float:left;
+    margin-right: 10px !important;
+}
+
 /* Extra style for the cancel button (red) */
 .cancelbtn {
-    width: auto;
-    padding: 10px 18px;
-    background-color: #f44336;
+    width: 45% !important;
+    padding: 10px 18px !important;
+    background-color: #f44336 !important;
 }
+
 
 /* Center the avatar image inside this container */
 .imgcontainer {
@@ -163,6 +176,7 @@ img.avatar {
   margin-left: 10px;
   margin-right: 10px;
   text-align: right;
+  overflow: hidden;
 }
 
 .event-item-left {
@@ -174,4 +188,17 @@ img.avatar {
 .event-item-right {
   right:0;
   height:inherit;
+}
+
+.my-event-item-left {
+  left:0;
+  float: left;
+  width: 30%;
+  padding-right: 20px;
+}
+
+.my-event-item-right {
+  right:0;
+  height:inherit;
+  height: 100%;
 }
