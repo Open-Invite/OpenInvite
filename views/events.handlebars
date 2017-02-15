@@ -127,27 +127,25 @@
 <div id="eventPopUp" class="modal">
     <span onclick="document.getElementById('eventPopUp').style.display='none'" class="close" title="Close Modal">&times;</span>
 
-  <form class="modal-content animate" action="action_page.php">
+  <form class="modal-content animate" action="/new_event" method="post">
 
     <div class="container">
             <label><b>Title</b></label>
-            <input type="text" placeholder="My Awesome Event" name="title" required>
+            <input type="text" placeholder="My Awesome Event" name="name" required>
             <label><b>Location</b></label>
-            <input type="text" placeholder="@My Place" name="loc" required>
+            <input type="text" placeholder="@My Place" name="location" required>
             <label><b>Description</b></label>
-            <input type="text" placeholder="Come to My Awesome Event" name="descr" required>
+            <input type="text" placeholder="Come to My Awesome Event" name="description" required>
       <br>
-      <label><b>Date and Time</b></label>
-            <input type="text" placeholder="4 Feb, 5:00" name="time" required>
-  <form>
-    		<input type="radio" name="am/pm" value="AM" checked> AM
-    		<input type="radio" name="am/pm" value="PM"> PM<br>
-  </form>
+      <label><b>Date</b></label>
+            <input type="text" placeholder="4 Feb" name="date" required>
+      <label><b>Time</b></label>
+            <input type="text" placeholder="5:00pm" name="time" required>
 
-        <p>By creating an event you agree to our <a href="#">Terms & Privacy</a>.</p>
+        <!--<p>By creating an event you agree to our <a href="#">Terms & Privacy</a>.</p>-->
         <div class="clearfix">
-          <button type="button" onclick="document.getElementById('eventPopUp').style.display='none'" class="cancelbtn">Cancel</button>
-          <button type="submit" class="signupbtn">Creat Your Event</button>
+          <button type="button" onclick="document.getElementById('eventPopUp').style.display='none'" class="cancelbtn" id="cancelNewEvent">Cancel</button>
+          <button type="submit" class="signupbtn" id="submitNewEvent">Creat Your Event</button>
         </div>
       </div>
     </form>

@@ -1,20 +1,22 @@
+var data = require('../data.json');
+var dataHelper = require("../helpers/data");
+
 /*
  * POST newevent data, redirect to home page.
  */
 exports.view = function(req, res){
-  var dataHelper = require("../helpers/data");
 
   var postData = {
-    "name": "GURU Meeting",
+    "name": req.body.name,
     "host": {
-      "id": 6,
-      "name":"Gary Cottrell"
+      "id": data.profile.id,
+      "name": data.profile.name
     },
-    "location": "CSE 4140",
+    "location": req.body.location,
     "latitude": 0,
     "longitude": 0,
-    "date": "13 Feb",
-    "time": "4:00pm",
+    "date": req.body.date,
+    "time": req.body.time,
     "going": [],
     "cancelled": [],
     "tags": []
@@ -22,5 +24,5 @@ exports.view = function(req, res){
   // Save post data to database
   dataHelper.createEvent(postData);
 
-  res.redirect('/');
+  res.redirect('/events');
 }
