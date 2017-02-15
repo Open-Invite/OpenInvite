@@ -177,6 +177,11 @@ img.avatar {
   margin-right: 10px;
   text-align: right;
   overflow: hidden;
+  height: 100%;
+}
+
+.attend-button {
+  vertical-align: middle!important;
 }
 
 .event-item-left {
