@@ -7,6 +7,7 @@ var http = require('http');
 var path = require('path');
 var handlebars = require('express-handlebars')
 
+var login = require('./routes/login');
 var index = require('./routes/index');
 var profile = require('./routes/profile');
 var events = require('./routes/events');
@@ -40,7 +41,8 @@ if ('development' == app.get('env')) {
 }
 
 // Add routes here
-app.get('/', index.view);
+app.get('/', login.view);
+app.get('/index', index.view);
 app.get('/profile', profile.view);
 app.get('/events', events.view);
 app.get('/culture', culture.view);
