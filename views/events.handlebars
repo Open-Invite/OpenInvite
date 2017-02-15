@@ -55,56 +55,8 @@
       <h3>Your Events</h3>
 
       <br/>
-      <!--
-      <table class="table table-hover events-table">
-
-        {{#each events}}
-        <thead>
-          <tr>
-            <th>{{name}}</th>
-            <th></th>
-            <th>{{location}}</th>
-            <th></th>
-            <th>{{date}}, <br/> {{time}}</th>
-          </tr>
-        </thead>
-        <tbody>
-          {{#each going}}
-          <tr>
-            <td></td>
-            <td>
-              <img class="profile-picture" src="http://lorempixel.com/20/20/people/"></img>
-              {{name}}
-            </td>
-            <td></td>
-            <td><p class="event-attending">Attending</p></td>
-            <td></td>
-          </tr>
-          {{else}}
-          {{/each}}
-          {{#each cancelled}}
-          <tr>
-            <td></td>
-            <td>
-              <img class="profile-picture" src="http://lorempixel.com/20/20/people/"></img>
-              {{name}}
-            </td>
-            <td></td>
-            <td><p class="event-cancelled">Cancelled</p></td>
-            <td></td>
-          </tr>
-          {{else}}
-          {{/each}}
-        </tbody>
-        {{else}}
-        You haven't made any events
-        {{/each}}
-
-      </table>
-      -->
-
       </div>
-      
+
       {{#each events}}
       <div class="well well-sm event-item">
         <div class="event-item-left">
