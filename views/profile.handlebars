@@ -47,9 +47,9 @@
           <i class="fa fa-pencil fa-fw" aria-hidden="true"></i> Edit
         </button>
 	  </div>
-	  
+
     </div>
-	
+
 
     <div id="profile" class = "jumbotron text-center">
     	<div>
@@ -71,7 +71,7 @@
   <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
 
   <!-- Modal Content -->
-  <form class="modal-content animate" action="action_page.php">
+  <form class="modal-content animate" action="/edit_profile" method="post">
     <div class="imgcontainer">
       <img src="http://lorempixel.com/100/100/people/" alt="Avatar" class="avatar">
     </div>
@@ -79,17 +79,17 @@
     <div class="container">
       <div>
       <label><b>Username</b></label>
-      <input type="text" placeholder="Enter Username" name="uname" required>
-      </div>
-
-      <div>
-      <label><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" required>
+      <input type="text" placeholder="Enter Username" name="username" required>
       </div>
 
       <div>
       <label><b>Email    </b></label>
-      <input type="text" placeholder="Enter Email" name="mail" required>
+      <input type="text" placeholder="Enter Email" name="email" required>
+      </div>
+
+      <div>
+      <label><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="password" required>
       </div>
 
       <div>

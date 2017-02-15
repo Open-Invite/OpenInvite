@@ -67,13 +67,13 @@ module.exports = {
     var existingOiUser = module.exports.getUserById(oiUser.id);
     existingOiUser.name = oiUser.name;
     existingOiUser.email = oiUser.email;
+    existingOiUser.username = oiUser.username;
     existingOiUser.password = oiUser.password;
     existingOiUser.latitude = oiUser.latitude;
     existingOiUser.longitude = oiUser.longitude;
     existingOiUser.profilePicture = oiUser.profilePicture;
 
     data.profile = existingOiUser;
-    console.log(data)
     return;
   }
 }

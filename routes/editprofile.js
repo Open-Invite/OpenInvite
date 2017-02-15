@@ -1,18 +1,22 @@
+var data = require('../data.json');
+var dataHelper = require("../helpers/data");
+
+
 /*
  * POST editprofile data, redirect to profile page.
  */
 exports.view = function(req, res){
-  var dataHelper = require("../helpers/data");
 
   var postData = {
-    "id": 7,
-    "name": "Skyler \"Caffeine\" Taylor",
-    "email": "coffee@ucsd.edu",
-    "password": "1234",
-    "latitude": 1,
-    "longitude": 2,
+    "id": data.profile.id,
+    "name": data.profile.name,
+    "username": req.body.username,
+    "email": req.body.email,
+    "password": req.body.password,
+    "latitude": 0,
+    "longitude": 0,
     "events": [],
-    "profilePicture": "http://lorempixel.com/50/50/people/"
+    "profilePicture": data.profile.profilePicture
   };
   // Save post data to database
   dataHelper.editProfile(postData);
