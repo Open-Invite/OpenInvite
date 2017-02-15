@@ -19,8 +19,17 @@ module.exports = {
   /*
    * Excludes events outside of radius, returns event list
    */
-  filterEventsByLocation: function(events, radius) {
+  filterEventsByLocation: function(events, radius, lat, lon) {
+    // TODO use a real radius function instead of searching in a square
+    var newEventsList = [];
+    for(var i = 0; i < data.events.length; i++){
+      if((Math.abs(data.events[i].latitude - lat) <= radius)
+      && (Math.abs(data.events[i].longitude - lon) <= radius)) {
+        newEventsList.push(data.events[i]);
+      }
+    }
 
+    return newEventsList;
   },
 
   /*
