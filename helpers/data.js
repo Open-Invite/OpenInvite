@@ -3,6 +3,50 @@ var data = require("../data.json");
 module.exports = {
 
   /*
+   * Excludes the current user's events, returns event list
+   */
+  filterEventsByOtherUsers: function(events, currentUser) {
+    var newEventsList = [];
+    for(var i = 0; i < data.events.length; i++){
+      if(data.profile.id != data.events[i].host.id) {
+        newEventsList.push(data.events[i]);
+      }
+    }
+
+    return newEventsList;
+  },
+
+  /*
+   * Excludes events outside of radius, returns event list
+   */
+  filterEventsByLocation: function(events, radius, lat, lon) {
+    // TODO use a real radius function instead of searching in a square
+    var newEventsList = [];
+    for(var i = 0; i < data.events.length; i++){
+      if((Math.abs(data.events[i].latitude - lat) <= radius)
+      && (Math.abs(data.events[i].longitude - lon) <= radius)) {
+        newEventsList.push(data.events[i]);
+      }
+    }
+
+    return newEventsList;
+  },
+
+  /*
+   * Include events starting with the string in search, returns event list
+   */
+  filterEventsBySearchQuery: function(events, search) {
+
+  },
+
+  /*
+   * Sort events by how soon they are, returns event list
+   */
+  sortEventsByTime: function(events) {
+
+  },
+
+  /*
    * Returns user with corresponding id
    */
   getUserById: function(id) {
