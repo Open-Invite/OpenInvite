@@ -1,7 +1,9 @@
-$("#menu-toggle").click(function(e) {
+function toggleNav(e) {
   e.preventDefault();
   $("#wrapper").toggleClass("toggled");
-});
+}
+
+$("#menu-toggle").click(toggleNav);
 
 $('.attend-button').click(function() {
   $(this).toggleClass("active");

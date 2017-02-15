@@ -55,7 +55,7 @@
       <h3>Your Events</h3>
 
       <br/>
-
+      <!--
       <table class="table table-hover events-table">
 
         {{#each events}}
@@ -101,6 +101,21 @@
         {{/each}}
 
       </table>
+      -->
+
+      <div class="well well-sm my-event-item">
+        <div class="my-event-item-left">
+          <button type="button" class="btn btn-default attend-button">
+            I'm going
+          </button>
+        </div>
+        <div class="my-event-item-right">
+          <h4 class="my-event-item-title">{{name}}</h4>
+          <h5 class="my-event-item-subtitle text-muted">{{location}} <br/> {{date}}, {{time}}</h5>
+          <h6 class="my-event-item-subtitle mb-2 text-muted">{{host.name}}</h6>
+          <!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+        </div>
+      </div>
 
     </div>
 
