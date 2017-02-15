@@ -7,9 +7,9 @@ module.exports = {
    */
   filterEventsByOtherUsers: function(events, currentUser) {
     var newEventsList = [];
-    for(var i = 0; i < data.events.length; i++){
-      if(data.profile.id != data.events[i].host.id) {
-        newEventsList.push(data.events[i]);
+    for(var i = 0; i < events.length; i++){
+      if(currentUser.id != events[i].host.id) {
+        newEventsList.push(events[i]);
       }
     }
 
@@ -22,10 +22,10 @@ module.exports = {
   filterEventsByLocation: function(events, radius, lat, lon) {
     // TODO use a real radius function instead of searching in a square
     var newEventsList = [];
-    for(var i = 0; i < data.events.length; i++){
-      if((Math.abs(data.events[i].latitude - lat) <= radius)
-      && (Math.abs(data.events[i].longitude - lon) <= radius)) {
-        newEventsList.push(data.events[i]);
+    for(var i = 0; i < events.length; i++){
+      if((Math.abs(events[i].latitude - lat) <= radius)
+      && (Math.abs(events[i].longitude - lon) <= radius)) {
+        newEventsList.push(events[i]);
       }
     }
 
@@ -36,7 +36,22 @@ module.exports = {
    * Include events starting with the string in search, returns event list
    */
   filterEventsBySearchQuery: function(events, search) {
-
+    var newEventsList = [];
+    for(var i = 0; i < events.length; i++){
+      if(events[i].name.toLowerCase().includes(search.toLowerCase())) {
+        newEventsList.push(events[i]);
+      } else if (events[i].host.name.toLowerCase().includes(search.toLowerCase())) {
+        newEventsList.push(events[i]);
+      } else if (events[i].date.toLowerCase().includes(search.toLowerCase())) {
+        newEventsList.push(events[i]);
+      } else if (events[i].time.toLowerCase().includes(search.toLowerCase())) {
+        newEventsList.push(events[i]);
+      } else if (events[i].location.toLowerCase().includes(search.toLowerCase())) {
+        newEventsList.push(events[i]);
+      }
+    }
+    console.log(newEventsList)
+    return newEventsList
   },
 
   /*
