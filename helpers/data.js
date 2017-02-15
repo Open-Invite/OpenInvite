@@ -3,6 +3,27 @@ var data = require("../data.json");
 module.exports = {
 
   /*
+   * Excludes the current user's events
+   */
+  filterEventsByOtherUsers: function(events, currentUser) {
+    var newEventsList = [];
+    for(var i = 0; i < data.events.length; i++){
+      if(data.profile.id != data.events[i].host.id) {
+        newEventsList.push(data.events[i]);
+      }
+    }
+
+    return newEventsList;
+  },
+
+  /*
+   * Excludes events outside of radius
+   */
+  filterEventsByLocation: function(events, radius) {
+
+  },
+
+  /*
    * Returns user with corresponding id
    */
   getUserById: function(id) {

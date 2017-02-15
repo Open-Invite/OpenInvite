@@ -11,7 +11,7 @@ exports.view = function(req, res){
   for(var i = 0; i < data.events.length; i++){
 
     // Only use Skyler's events (assume logged in user is Skyler)
-    if(data.events[i].host.id === 7){
+    if(data.events[i].host.id == 7){
       userData.events.push(data.events[i])
     }
   }
