@@ -21,16 +21,20 @@ button {
 
 /* Extra styles for the cancel button */
 .cancelbtn {
-    padding: 14px 20px;
+    padding: 10px 10px;
     background-color: #f44336;
+    float:right;
+    width: 48%;
+    font-size: 18px;
 }
 
 /* Float cancel and signup buttons and add an equal width */
-.signupbtn, .cancelbtn {
-    padding: 10px 18px !important;
+.signupbtn {
+    padding: 10px 10px !important;
     margin-right: 10px !important;
-    float:left;
-    width:48%;
+    float:left !important;
+    width:48% !important;
+    font-size: 18px;
 }
 
 /* Add padding to container elements */
