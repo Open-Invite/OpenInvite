@@ -224,3 +224,8 @@ img.avatar {
     margin: auto;
     width: 40%;
 }
+
+/* Bordered form */
+form.search {
+    border: 0px !important;
+}
