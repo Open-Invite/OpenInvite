@@ -173,7 +173,7 @@
       "going": [],
       "cancelled": [],
       "tags": [],
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus aliquet ligula non commodo placerat. Ut nec cursus tellus. Etiam arcu nulla, pretium ac nisi et."
+      "description": "Come check out some sick apps in CSE 170 (COGS 120) studio."
     },
     {
       "id": 1,
@@ -200,7 +200,7 @@
         }
       ],
       "tags": [],
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus aliquet ligula non commodo placerat. Ut nec cursus tellus. Etiam arcu nulla, pretium ac nisi et."
+      "description": "Going to The Lion's Share downtown to go on an absinthe fueled computer vision quest. Come through if you're interested in computer vision, absinthe, or if you just want to hear some musings on the dank new CV papers on arxiv."
     },
     {
       "id": 2,
@@ -236,7 +236,7 @@
         }
       ],
       "tags": [],
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus aliquet ligula non commodo placerat. Ut nec cursus tellus. Etiam arcu nulla, pretium ac nisi et."
+      "description": "Getting extremely hyped on caffeine to prepare for the extremely long wait while my LSTM trains on my non-GPU."
     },
     {
       "id": 3,
@@ -253,7 +253,7 @@
       "going": [],
       "cancelled": [],
       "tags": [],
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus aliquet ligula non commodo placerat. Ut nec cursus tellus. Etiam arcu nulla, pretium ac nisi et."
+      "description": "It's ironic because I am not known to get up before noon."
     },
     {
       "id": 4,
@@ -270,7 +270,7 @@
       "going": [],
       "cancelled": [],
       "tags": [],
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus aliquet ligula non commodo placerat. Ut nec cursus tellus. Etiam arcu nulla, pretium ac nisi et."
+      "description": "I need to go to whole foods and I am the only person that I know that has a car, so if anybody wants to join, I will provide a ride."
     },
     {
       "id": 5,
@@ -287,7 +287,7 @@
       "going": [],
       "cancelled": [],
       "tags": [],
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus aliquet ligula non commodo placerat. Ut nec cursus tellus. Etiam arcu nulla, pretium ac nisi et."
+      "description": "I made an LSTM that learns from transcripts of prank videos on YouTube, so if you're interesed in acting out a computer generated transcript of a potentially insane prank video, attend this sick event."
     },
     {
       "id": 6,
@@ -296,7 +296,7 @@
         "id": 6,
         "name":"Wally"
       },
-      "location": "CSE 4140",
+      "location": "CSE 100000000000",
       "latitude": 32.881486,
       "longitude": -117.233896,
       "date": "13 Feb",
@@ -304,7 +304,7 @@
       "going": [],
       "cancelled": [],
       "tags": [],
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus aliquet ligula non commodo placerat. Ut nec cursus tellus. Etiam arcu nulla, pretium ac nisi et."
+      "description": "Wally will be presenting his research on deep recurrent gated siamese autoencoding neural turing perceptron lstm rnn backpropagating deep feature graph extracting nlp convolutional deep transfer learning deep neural buzzword networks. It is guaranteed to be deep."
     }
   ]
 }
