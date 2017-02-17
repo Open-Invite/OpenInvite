@@ -4,7 +4,7 @@
     "name": "Skyler Taylor",
     "username": "SkylerDaBoss",
     "email": "SkylerDaBoss@email.com",
-    "password": "",
+    "password": "test",
     "latitude": 0,
     "longitude": 0,
     "location": "La Jolla, CA",
@@ -101,7 +101,7 @@
       "name": "Skyler Taylor",
       "username": "SkylerDaBoss",
       "email": "SkylerDaBoss@hotmail.com",
-      "password": "",
+      "password": "test",
       "latitude": 0,
       "longitude": 0,
       "location": "La Jolla, CA",
@@ -172,7 +172,8 @@
       "time": "10:10am",
       "going": [],
       "cancelled": [],
-      "tags": []
+      "tags": [],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus aliquet ligula non commodo placerat. Ut nec cursus tellus. Etiam arcu nulla, pretium ac nisi et."
     },
     {
       "id": 1,
@@ -198,7 +199,8 @@
           "id": 11
         }
       ],
-      "tags": []
+      "tags": [],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus aliquet ligula non commodo placerat. Ut nec cursus tellus. Etiam arcu nulla, pretium ac nisi et."
     },
     {
       "id": 2,
@@ -233,7 +235,8 @@
           "id": 11
         }
       ],
-      "tags": []
+      "tags": [],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus aliquet ligula non commodo placerat. Ut nec cursus tellus. Etiam arcu nulla, pretium ac nisi et."
     },
     {
       "id": 3,
@@ -249,7 +252,8 @@
       "time": "11:59am",
       "going": [],
       "cancelled": [],
-      "tags": []
+      "tags": [],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus aliquet ligula non commodo placerat. Ut nec cursus tellus. Etiam arcu nulla, pretium ac nisi et."
     },
     {
       "id": 4,
@@ -265,7 +269,8 @@
       "time": "1:00pm",
       "going": [],
       "cancelled": [],
-      "tags": []
+      "tags": [],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus aliquet ligula non commodo placerat. Ut nec cursus tellus. Etiam arcu nulla, pretium ac nisi et."
     },
     {
       "id": 5,
@@ -281,7 +286,8 @@
       "time": "1:01pm",
       "going": [],
       "cancelled": [],
-      "tags": []
+      "tags": [],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus aliquet ligula non commodo placerat. Ut nec cursus tellus. Etiam arcu nulla, pretium ac nisi et."
     },
     {
       "id": 6,
@@ -297,7 +303,8 @@
       "time": "4:00pm",
       "going": [],
       "cancelled": [],
-      "tags": []
+      "tags": [],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus aliquet ligula non commodo placerat. Ut nec cursus tellus. Etiam arcu nulla, pretium ac nisi et."
     }
   ]
 }
