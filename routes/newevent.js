@@ -19,7 +19,8 @@ exports.view = function(req, res){
     "time": req.body.time,
     "going": [],
     "cancelled": [],
-    "tags": []
+    "tags": [],
+    "description": req.body.description
   };
   // Save post data to database
   dataHelper.createEvent(postData);

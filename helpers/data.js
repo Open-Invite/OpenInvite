@@ -48,6 +48,8 @@ module.exports = {
         newEventsList.push(events[i]);
       } else if (events[i].location.toLowerCase().includes(search.toLowerCase())) {
         newEventsList.push(events[i]);
+      } else if (events[i].description.toLowerCase().includes(search.toLowerCase())) {
+        newEventsList.push(events[i]);
       }
     }
     console.log(newEventsList)
