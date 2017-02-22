@@ -8,8 +8,14 @@ $("#menu-toggle").click(toggleNav);
 $('.attend-button').click(function() {
 
   var ctx = this;
+  var eventNum = 0;
 
-  $.post('/attend_event', {}, function(data, status){
+  $.post('/attend_event',
+    {
+      'user': 7,
+      'event': $(ctx).siblings('data').attr('value')
+    },
+    function(data, status){
     $(ctx).toggleClass("active");
 
     //$(ctx).css('width', $(this).outerWidth());

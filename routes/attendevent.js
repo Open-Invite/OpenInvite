@@ -28,5 +28,7 @@ exports.view = function(req, res){
 
   console.log('good');
 
+
+
   res.send(200)
 }
