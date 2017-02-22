@@ -9,7 +9,7 @@ exports.view = function(req, res){
     "profile": data.profile
   };
   for(var i = 0; i < data.events.length; i++){
-
+    // TODO show events Skyler is going to
     // Only use Skyler's events (assume logged in user is Skyler)
     if(data.events[i].host.id == 7){
       userData.events.push(data.events[i])

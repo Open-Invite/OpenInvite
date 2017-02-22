@@ -6,13 +6,18 @@ function toggleNav(e) {
 $("#menu-toggle").click(toggleNav);
 
 $('.attend-button').click(function() {
-  $(this).toggleClass("active");
 
-  //$(this).css('width', $(this).outerWidth());
+  var ctx = this;
 
-  $(this).text(function(i, text){
-    return text === "Cancel" ? "I'm going" : "Cancel";
-  })
+  $.post('/attend_event', {}, function(data, status){
+    $(ctx).toggleClass("active");
+
+    //$(ctx).css('width', $(this).outerWidth());
+
+    $(ctx).text(function(i, text){
+      return text === "Cancel" ? "I'm going" : "Cancel";
+    });
+  });
 });
 
 $(document).ready(function() {

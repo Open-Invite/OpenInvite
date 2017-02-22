@@ -15,6 +15,7 @@ var culture = require('./routes/culture');
 var help = require('./routes/help');
 var newEvent = require('./routes/newevent');
 var editProfile = require('./routes/editprofile');
+var attendEvent = require('./routes/attendevent');
 var search = require('./routes/search');
 // Example route
 // var user = require('./routes/user');
@@ -51,6 +52,7 @@ app.get('/help', help.view);
 
 app.post('/new_event', newEvent.view);
 app.post('/edit_profile', editProfile.view);
+app.post('/attend_event', attendEvent.view);
 app.post('/search', search.view);
 // Example route
 // app.get('/users', user.list);
