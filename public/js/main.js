@@ -21,7 +21,7 @@ $('.attend-button').click(function() {
     //$(ctx).css('width', $(this).outerWidth());
 
     $(ctx).text(function(i, text){
-      return text === "Cancel" ? "I'm going" : "Cancel";
+      return text.trim() === "Cancel" ? "I'm going" : "Cancel";
     });
   });
 });
