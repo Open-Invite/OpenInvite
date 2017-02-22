@@ -23,12 +23,7 @@ exports.view = function(req, res){
   dataHelper.editProfile(postData);
   */
 
-  // Check if user is attending, if so, remove attenance
-  // Else add user to attendees
-
-  console.log('good');
-
-
+  dataHelper.attendEvent(req.body.user, req.body.event);
 
   res.send(200)
 }

@@ -101,7 +101,37 @@ module.exports = {
   /*
    * Adds a user to an event in data.json
    */
-  attendEvent: function(oiUser, oiEvent) {
+  attendEvent: function(oiUserID, oiEventID) {
+    // Check if user is attending, if so, remove attenance
+    // Else add user to attendees
+    oiuser = module.exports.getUserById(oiUserID);
+    oievent = module.exports.getEventById(oiEventID);
+
+    attendee = {
+      'name': oiuser.name,
+      'id': oiuser.id
+    };
+
+    // Check if in cancelled
+    for (var i = 0; i < oievent.cancelled.length; i++){
+      if(oievent.cancelled[i].id == attendee.id){
+        oievent.cancelled.splice(i, 1);
+        oievent.going.push(attendee);
+        return;
+      }
+    }
+
+    // Check if in going
+    for (var i = 0; i < oievent.going.length; i++){
+      if(oievent.going[i].id == attendee.id){
+        oievent.going.splice(i, 1);
+        oievent.cancelled.push(attendee);
+        return;
+      }
+    }
+
+    // Made it this far... Must not be in either list
+    oievent.going.push(attendee);
     return;
   },
 

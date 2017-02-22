@@ -8,11 +8,15 @@ exports.view = function(req, res){
     "events": [],
     "profile": data.profile
   };
-  for(var i = 0; i < data.events.length; i++){
-    // TODO show events Skyler is going to
-    // Only use Skyler's events (assume logged in user is Skyler)
+  for(var i = 0; i < data.events.length; i++) {
     if(data.events[i].host.id == 7){
       userData.events.push(data.events[i])
+    } else {
+      for(var j = 0; j < data.events[i].going.length; j++) {
+        if(data.events[i].going[j].id == 7){
+          userData.events.push(data.events[i])
+        }
+      }
     }
   }
   res.render('events', userData);
