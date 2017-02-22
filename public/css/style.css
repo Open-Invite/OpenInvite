@@ -191,7 +191,8 @@ img.avatar {
 }
 
 .event-item-right {
-  right:0;
+  margin-left: 35%;
+  text-align: left;
   height:inherit;
 }
 
