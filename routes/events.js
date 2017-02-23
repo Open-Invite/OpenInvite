@@ -1,20 +1,27 @@
 var data = require('../data.json');
+var dataHelper = require("../helpers/data");
 
 /*
  * GET events page.
  */
 exports.view = function(req, res){
+
+  var newData = JSON.parse(JSON.stringify(data));
+  newData.events = dataHelper.sortEventsByTime(
+    newData.events
+  )
+
   var userData = {
     "events": [],
-    "profile": data.profile
+    "profile": newData.profile
   };
-  for(var i = 0; i < data.events.length; i++) {
-    if(data.events[i].host.id == 7){
-      userData.events.push(data.events[i])
+  for(var i = 0; i < newData.events.length; i++) {
+    if(newData.events[i].host.id == 7){
+      userData.events.push(newData.events[i])
     } else {
-      for(var j = 0; j < data.events[i].going.length; j++) {
-        if(data.events[i].going[j].id == 7){
-          userData.events.push(data.events[i])
+      for(var j = 0; j < newData.events[i].going.length; j++) {
+        if(newData.events[i].going[j].id == 7){
+          userData.events.push(newData.events[i])
         }
       }
     }

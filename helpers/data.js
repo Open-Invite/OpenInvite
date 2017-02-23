@@ -58,7 +58,21 @@ module.exports = {
    * Sort events by how soon they are, returns event list
    */
   sortEventsByTime: function(events) {
+    var newEvents = [];
 
+    // Remove old events
+    for(var i = 0; i < events.length; i++){
+      if(Date.parse(events[i].datetime) >= Date.now()){
+        newEvents.push(events[i]);
+      }
+    }
+
+    // Sort events
+    newEvents = events.sort(function(a, b){
+      return Date.parse(a.datetime) > Date.parse(b.datetime);
+    });
+
+    return newEvents;
   },
 
   /*
