@@ -20,7 +20,7 @@ exports.view = function(req, res){
     "datetime": req.body.datetime,
     "going": [],
     "cancelled": [],
-    "tags": [],
+    "tags": req.body.tags,
     "description": req.body.description
   };
   // Save post data to database

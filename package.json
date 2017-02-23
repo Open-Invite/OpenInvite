@@ -19,6 +19,7 @@
   "dependencies": {
     "bootstrap-3-card": "^0.2.0",
     "bootstrap-datetime-picker": "^2.4.3",
+    "bootstrap-tagsinput": "^0.7.1",
     "express": "^3.*",
     "express-handlebars": "^3.0.0",
     "mongodb": "^2.2.22"

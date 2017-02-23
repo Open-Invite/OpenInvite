@@ -5,6 +5,7 @@
   <link href="css/bootstrap.css" rel="stylesheet"></link>
   <link href="css/bootstrap-theme.css" rel="stylesheet"></link>
   <link href="css/bootstrap-datetimepicker.css" rel="stylesheet"></link>
+  <link rel="stylesheet" href="css/bootstrap-tagsinput.css"></link>
   <link href="css/simple-sidebar.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet"></link>
   <link href="css/popUpStyle.css" rel="stylesheet"></link>
@@ -135,6 +136,11 @@
             <label><b>Description</b></label>
             <input type="text" placeholder="Come to My Awesome Event" name="description" required>
 
+            <label><b>Tags (optional)</b></label><br/>
+            <select name="tags" multiple data-role="tagsinput">
+            </select>
+
+
         <!--<p>By creating an event you agree to our <a href="#">Terms & Privacy</a>.</p>-->
         <div class="clearfix">
           <button type="submit" class="signupbtn btn" id="submitNewEvent">Create Event</button>
@@ -159,6 +165,10 @@
         fontAwesome: true,
     });
   </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typeahead.js/0.11.1/typeahead.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular.min.js"></script>
+  <script src="js/bootstrap-tagsinput.js"></script>
+  <script src="js/bootstrap-tagsinput-angular.js"></script>
 </body>
 
 </html>
