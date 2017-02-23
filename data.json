@@ -280,7 +280,7 @@
       "datetime": "03 May 2017, 03:10 PM",
       "going": [],
       "cancelled": [],
-      "tags": [],
+      "tags": ["dance"],
       "description": "I made an LSTM that learns from transcripts of prank videos on YouTube, so if you're interesed in acting out a computer generated transcript of a potentially insane prank video, attend this sick event."
     },
     {

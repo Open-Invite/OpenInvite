@@ -17,6 +17,7 @@ var newEvent = require('./routes/newevent');
 var editProfile = require('./routes/editprofile');
 var attendEvent = require('./routes/attendevent');
 var search = require('./routes/search');
+var dance = require('./routes/dance');
 // Example route
 // var user = require('./routes/user');
 
@@ -49,6 +50,7 @@ app.get('/profile', profile.view);
 app.get('/events', events.view);
 app.get('/culture', culture.view);
 app.get('/help', help.view);
+app.get('/dance', dance.view);
 
 app.post('/new_event', newEvent.view);
 app.post('/edit_profile', editProfile.view);

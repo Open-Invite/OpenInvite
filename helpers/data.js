@@ -3,6 +3,24 @@ var data = require("../data.json");
 module.exports = {
 
   /*
+   * Include events only of a certain tag
+   */
+  filterEventsByTag: function(events, tag) {
+    console.log(events);
+    var newEventsList = [];
+    for(var i = 0; i < events.length; i++){
+      if(events[i].tags.indexOf(tag) > -1) {
+        newEventsList.push(events[i]);
+      }
+    }
+
+    //console.log(newEventsList);
+
+    return newEventsList;
+  },
+
+
+  /*
    * Excludes the current user's events, returns event list
    */
   filterEventsByOtherUsers: function(events, currentUser) {
@@ -48,9 +66,10 @@ module.exports = {
         newEventsList.push(events[i]);
       } else if (events[i].description.toLowerCase().includes(search.toLowerCase())) {
         newEventsList.push(events[i]);
+      } else if (events[i].tags.indexOf(search.toLowerCase()) > -1) {
+        newEventsList.push(events[i]);
       }
     }
-    console.log(newEventsList)
     return newEventsList
   },
 
@@ -71,8 +90,6 @@ module.exports = {
     newEvents = newEvents.sort(function(a, b){
       return Date.parse(a.datetime) > Date.parse(b.datetime);
     });
-
-    console.log(newEvents);
 
     return newEvents;
   },

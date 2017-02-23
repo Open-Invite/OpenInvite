@@ -13,8 +13,8 @@ exports.view = function(req, res){
       "name": data.profile.name
     },
     "location": req.body.location,
-    "latitude": 0,
-    "longitude": 0,
+    "latitude": 32.8885448,
+    "longitude": -117.24166079999999,
     //"date": req.body.date,
     //"time": req.body.time,
     "datetime": req.body.datetime,

@@ -24,10 +24,10 @@
           </a>
         </li>
         <hr></hr>
-        <li>
+        <li class="sidebar-nav-active">
             <a href="/index"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
         </li>
-        <li class="sidebar-nav-active">
+        <li>
             <a href="/events"><i class="fa fa-calendar-check-o" aria-hidden="true"></i> My Events</a>
         </li>
         <li>
@@ -47,49 +47,74 @@
       <div class="jumbotron text-center">
         <h1>OpenInvite</h1>
 		<!-- Button to open the modal -->
-		<button onclick="document.getElementById('eventPopUp').style.display='block'" type="button" class="btn btn-default">
+		<button onclick="document.getElementById('eventPopUp').style.display='block'" type="button" class="btn btn-default" id="createEventButton">
           <i class="fa fa-plus-square" aria-hidden="true"></i> Create Event
         </button>
       </div>
     </div>
 
     <div class="container">
-      <h3>Your Events</h3>
+      <div class="row">
+        <div class="col-md-6">
+          <h3>Dance</h3>
+        </div>
+        <div class="col-md-4">
+          <form class="form-inline search" action="/search" method="post">
+            <h3>
+              <div class="input-group">
+
+                  <input type="text" class="form-control" name="search" placeholder="Search events...">
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <i class="fa fa-search" aria-hidden="true"></i>
+                    </button>
+                  </span>
+
+              </div><!-- /input-group -->
+            </h3>
+          </form>
+        </div><!-- /.col-lg-6 -->
+      </div><!-- /.row -->
 
       <br/>
-      </div>
 
-      {{#each events}}
-      <div class="well well-sm event-item">
-        <div class="event-item-left">
-          <h4 class="event-item-title">Going</h4>
-          <h5 class="event-item-subtitle mb-2 text-muted">
-          {{#each going}}
-          {{name}}<br/><br/>
-          {{/each}}
-        </h5>
-        </div>
-        <div class="event-item-right">
-          <h4 class="event-item-title">{{name}}</h4>
-          <h5 class="event-item-subtitle text-muted">{{location}} <br/> {{datetime}}</h5>
-          <h6 class="event-item-subtitle mb-2 text-muted">{{host.name}}</h6>
-          <p class="card-text">{{description}}</p>
-          <!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
-        </div>
-      </div>
-      {{/each}}
+    </div>
 
+
+    {{#each events}}
+    <div class="well well-sm event-item">
+      <div class="event-item-left">
+        {{#if attending}}
+        <button type="button" class="btn btn-default btn-lg attend-button active">
+          Cancel
+        </button>
+        <data class="" value={{id}}></data>
+        {{else}}
+        <button type="button" class="btn btn-default btn-lg attend-button">
+          I'm going
+        </button>
+        <data class="" value={{id}}></data>
+        {{/if}}
+      </div>
+      <div class="event-item-right">
+        <h4 class="event-item-title">{{name}}</h4>
+        <h5 class="event-item-subtitle text-muted">{{location}} <br/> {{datetime}}</h5>
+        <h6 class="event-item-subtitle mb-2 text-muted">{{host.name}}</h6>
+        <p class="card-text">{{description}}</p>
+        <!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+      </div>
+    </div>
+    {{/each}}
 
   </div>
 
-
-  <!-- The Modal (contains the Sign Up form) -->
+<!-- The Modal (contains the Sign Up form) -->
 <div id="eventPopUp" class="modal">
     <span onclick="document.getElementById('eventPopUp').style.display='none'" class="close" title="Close Modal">&times;</span>
 
-  <form class="modal-content animate" action="/new_event" method="post">
+    <form class="modal-content animate" action="/new_event" method="post">
 
-    <div class="popup-container">
+      <div class="popup-container">
             <label><b>Title</b></label>
             <input type="text" placeholder="My Awesome Event" name="name" required>
             <label><b>Location</b></label>
@@ -113,7 +138,9 @@
 
             <label><b>Tags (optional)</b></label><br/>
             <select class="tagbox" name="tags" multiple data-role="tagsinput">
+              <option value="dance">dance</option>
             </select>
+
 
         <!--<p>By creating an event you agree to our <a href="#">Terms & Privacy</a>.</p>-->
         <div class="clearfix">
@@ -124,14 +151,12 @@
     </form>
 </div>
 
-
-
   <script src="https://use.fontawesome.com/6a9c821b61.js"></script>
   <script src="js/jquery-1.11.0.js"></script>
   <script src="js/bootstrap.js"></script>
   <script src="js/main.js"></script>
   <script src="js/popUp.js"></script>
-  <script src="js/bootstrap-datetimepicker.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="js/bootstrap-datetimepicker.js" charset="UTF-8"></script>
   <script type="text/javascript">
     $(".form_datetime").datetimepicker({
         format: "dd MM yyyy, HH:ii P",
