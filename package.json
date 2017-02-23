@@ -18,6 +18,7 @@
   "homepage": "https://github.com/Open-Invite/OpenInvite#readme",
   "dependencies": {
     "bootstrap-3-card": "^0.2.0",
+    "bootstrap-datetime-picker": "^2.4.3",
     "express": "^3.*",
     "express-handlebars": "^3.0.0",
     "mongodb": "^2.2.22"
