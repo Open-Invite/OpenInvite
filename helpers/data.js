@@ -42,9 +42,7 @@ module.exports = {
         newEventsList.push(events[i]);
       } else if (events[i].host.name.toLowerCase().includes(search.toLowerCase())) {
         newEventsList.push(events[i]);
-      } else if (events[i].date.toLowerCase().includes(search.toLowerCase())) {
-        newEventsList.push(events[i]);
-      } else if (events[i].time.toLowerCase().includes(search.toLowerCase())) {
+      } else if (events[i].datetime.toLowerCase().includes(search.toLowerCase())) {
         newEventsList.push(events[i]);
       } else if (events[i].location.toLowerCase().includes(search.toLowerCase())) {
         newEventsList.push(events[i]);
