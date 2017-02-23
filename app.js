@@ -18,6 +18,11 @@ var editProfile = require('./routes/editprofile');
 var attendEvent = require('./routes/attendevent');
 var search = require('./routes/search');
 var dance = require('./routes/dance');
+var festivals = require('./routes/festivals');
+var history = require('./routes/history');
+var museums = require('./routes/museums');
+var music = require('./routes/music');
+var theatre = require('./routes/theatre');
 // Example route
 // var user = require('./routes/user');
 
@@ -51,6 +56,11 @@ app.get('/events', events.view);
 app.get('/culture', culture.view);
 app.get('/help', help.view);
 app.get('/dance', dance.view);
+app.get('/festivals', festivals.view);
+app.get('/history', history.view);
+app.get('/museums', museums.view);
+app.get('/music', music.view);
+app.get('/theatre', theatre.view);
 
 app.post('/new_event', newEvent.view);
 app.post('/edit_profile', editProfile.view);
