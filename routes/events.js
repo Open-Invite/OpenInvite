@@ -9,7 +9,7 @@ exports.view = function(req, res){
   var newData = JSON.parse(JSON.stringify(data));
   newData.events = dataHelper.sortEventsByTime(
     newData.events
-  )
+  );
 
   var userData = {
     "events": [],

@@ -12,7 +12,9 @@ exports.view = function(req, res){
     newData.events, 0.008, 32.8885448, -117.24166079999999);
   newData.events = dataHelper.sortEventsByTime(
     newData.events
-  )
+  );
+
+  console.log(newData.events);
 
   for (var i = 0; i < newData.events.length; i++) {
     for (var j = 0; j < newData.events[i].going.length; j++){
