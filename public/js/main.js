@@ -43,3 +43,18 @@ function showPosition(position) {
 
   console.log(lat + ", " + lon);
 }
+
+$('#newEvent').submit(function(event) {
+  console.log(event);
+  console.log("prevented default");
+  console.log($("#newEvent :input").serializeArray());
+  data = $("#newEvent :input").serializeArray();
+
+  // If date is old
+  if(Date.parse(data[2].value) <= Date.now() || data[2].value == ""){
+    event.preventDefault();
+    // Show message to use future date
+  }
+
+  // Contiue submision
+});

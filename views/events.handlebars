@@ -87,7 +87,7 @@
 <div id="eventPopUp" class="modal">
     <span onclick="document.getElementById('eventPopUp').style.display='none'" class="close" title="Close Modal">&times;</span>
 
-  <form class="modal-content animate" action="/new_event" method="post">
+  <form class="modal-content animate" id="newEvent" action="/new_event" method="post">
 
     <div class="popup-container">
             <label><b>Title</b></label>
@@ -103,7 +103,7 @@
       -->
             <label><b>Date and Time</b></label>
             <div class="input-append date form_datetime">
-                <input size="16" type="text" name="datetime" readonly required>
+                <input size="16" type="text" name="datetime" required>
                 <span class="add-on"><i class="icon-remove"></i></span>
                 <span class="add-on"><i class="icon-th"></i></span>
             </div>
