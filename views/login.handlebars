@@ -23,14 +23,11 @@
     <label><b>Password</b></label>
     <input type="password" placeholder="Enter Password" name="psw" required>
 
-    <span class="psw">Forgot <a href="#">password?</a></span>
-
     <button type="submit" style="width: 20%">Login</button>
-    <button onclick="document.getElementById('id02').style.display='block'" type="button" class="btn" id="editProfileButton" style="width: 20%">
-          <i aria-hidden="true"></i> Create Account
-    </button>
     <br/>
-    <input type="checkbox" checked="checked"> Remember me
+    Do not have an account?
+    <a href="#" onclick="document.getElementById('id02').style.display='block'" id="editProfileButton">Sign up</a>
+    <br/>
   </div>
 
 </form>
@@ -42,7 +39,7 @@
   <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
 
   <!-- Modal Content -->
-  <form class="modal-content animate" action="/edit_profile" method="post">
+    <form class="modal-content animate" action="/create_profile" method="post">
     <div class="imgcontainer">
       <img src="images/Kitty.jpg" alt="Avatar" class="avatar">
     </div>

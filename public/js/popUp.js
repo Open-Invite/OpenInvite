@@ -14,7 +14,7 @@ window.onclick = function(event) {
         modalL.style.display = "none";
     }
 	else if(event.target == modal2){
+		event.preventDefault();
 		modal2.style.display = "none";
 	}
 }
-
