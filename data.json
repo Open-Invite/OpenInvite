@@ -245,7 +245,7 @@
       "location": "The Village, UCSD",
       "latitude": 32.888295,
       "longitude": -117.242696,
-      "datetime": "01 March 2010, 03:10 PM",
+      "datetime": "11 March 2017, 03:10 PM",
       "going": [],
       "cancelled": [],
       "tags": [],
@@ -411,5 +411,137 @@
       "tags": ["festivals"],
       "description": "Hackathon at SDSU."
     }
-  ]
+  ],
+
+"culture": {
+    "attractions": [
+      {
+      "id": 0,
+      "name": "San Diego Zoo",
+      "location": "San Diego",
+      "latitude": 32.888295,
+      "longitude": -117.242696,
+      "going": [],
+      "cancelled": [],
+      "tags": [],
+      "description": "An urban paradise for all ages, the San Diego Zoo is a must-see in Southern California, with more than 4,000 rare and fascinating animals. See giant pandas, Komodo dragons, gorillas, tigers, flamingos, polar bears, and many more. Visit our 25 koalas in the brand-new Australian Outback! 
+
+Parking at the Zoo is Free."
+    },
+    {
+      "id": 1,
+      "name": "SeaWorld San Diego",
+      "location": "San Diego",
+      "latitude": 32.888295,
+      "longitude": -117.242696,
+      "going": [],
+      "cancelled": [],
+      "tags": [],
+      "description": "Come celebrate the wonders of the sea at SeaWorld® San Diego. Experience the Shamu® show, One Ocean®, and thrilling rides like Journey To Atlantis®, Shipwreck Rapids® and Wild Arctic®. Join Elmo and his friends at the Sesame Street Bay of Play® featuring family-friendly rides. Dont miss the Pets Rule! ® show and the hilarious antics of Clyde and Seamores sea lion and otter show. Feed and touch dolphins and bat rays, and get up-close to beluga whales, polar bears, sharks and penguins. Enjoy fascinating aquariums and exotic birds from around the world. Then dive into the world of sea turtles at the Turtle Reef attraction. And, soar, dive and twist like a ray on Manta, the newest coaster that only SeaWorld could create."
+    },
+    {
+      "id": 2,
+      "name": "Legoland California Resort",
+      "location": "Carlsbad",
+      "latitude": 32.888295,
+      "longitude": -117.242696,
+      "going": [],
+      "cancelled": [],
+      "tags": [],
+      "description": "LEGOLAND® California Resort has more than 60 rides, shows and attractions including the new LEGO® Star Wars™: The Force Awakens Miniland Model Display! In March, a 16-foot long Finalizer model made completely out of LEGO bricks will also feature six brick-built scenes including Rey's rescue of BB-8, and Poe and Finn's escape from the Finalizer! Inside LEGOLAND, enter a world of knights and princesses to conquer the Dragon Coaster. Kids drive cars at Driving School. Make new friends at LEGO Friends Heartlake City. The Resort is also home to LEGOLAND Water Park and the wonder-filled SEA LIFE® Aquarium. NEW for 2017, cool off inside Surfers' Cove  a new water park expansion featuring racer-water slides and an epic splash zone opening summer."
+    }
+    ],
+    "festivals": [
+    {
+      "id": 3,
+      "name": "San Diego LGBT Pride Parade & Festival",
+      "location": "San Diego",
+      "latitude": 32.888295,
+      "longitude": -117.242696,
+      "going": [],
+      "cancelled": [],
+      "tags": [],
+      "description": "With world-famous Balboa Park as its festival site and a mile-long parade route stretching through one of the most gay-friendly neighborhoods in the nation, San Diego LGBT Pride attracts nearly 300,000 locals and visitors to its annual three-day Pride celebration in July"
+    },
+    {
+      "id": 4,
+      "name": "San Diego Film Festival",
+      "location": "San Diego",
+      "latitude": 32.888295,
+      "longitude": -117.242696,
+      "going": [],
+      "cancelled": [],
+      "tags": [],
+      "description": "If you enjoy celebrity spotting, the red carpet at the San Diego Film Festival is your best bet. The festival spans five days every September with over 100 independent and studio films shown in two locations: La Jolla and downtown's Gaslamp Quarter. Acclaimed films like "12 Years A Slave" and "Silver Linings Playbook" were both screened at the festival before becoming Academy Award winners. Interviews with filmmakers and actors also take place throughout the festival run. Like most of the film organizations in town, this group also programs screenings throughout the year."
+    },
+    
+    {
+      "id": 5,
+      "name": "Best Coast Beer Fest 2017",
+      "location": "San Diego",
+      "latitude": 32.888295,
+      "longitude": -117.242696,
+      "going": [],
+      "cancelled": [],
+      "tags": [],
+      "description": "Enjoy more than 200 beers from nearly 100 local breweries, grab a sensible lunch in our food truck alley and listen to the sweet sounds of local bands - all while taking in the gorgeous views of Coronado and downtown San Diego. To recap...You. Beer. Music. Food trucks. San Diego Bay. The whole shebang. There is no physical way in the universe you can enjoy a day better than this. We've done the research. It's science."
+    }
+  ],
+    "heritage": [
+    {
+      "id": 6,
+      "name": "San Diego Zoo",
+      "location": "San Diego",
+      "latitude": 32.888295,
+      "longitude": -117.242696,
+      "going": [],
+      "cancelled": [],
+      "tags": [],
+      "description": ""
+    }
+  ],
+  "museums": [
+    {
+      "id": 6,
+      "name": "San Diego Zoo",
+      "location": "San Diego",
+      "latitude": 32.888295,
+      "longitude": -117.242696,
+      "going": [],
+      "cancelled": [],
+      "tags": [],
+      "description": ""
+    }
+  ],
+  "music": [
+    {
+      "id": 6,
+      "name": "San Diego Zoo",
+      "location": "San Diego",
+      "latitude": 32.888295,
+      "longitude": -117.242696,
+      "going": [],
+      "cancelled": [],
+      "tags": [],
+      "description": ""
+    }
+  ],
+"theatre": [
+    {
+      "id": 6,
+      "name": "San Diego Zoo",
+      "location": "San Diego",
+      "latitude": 32.888295,
+      "longitude": -117.242696,
+      "going": [],
+      "cancelled": [],
+      "tags": [],
+      "description": ""
+    }
+  ],
+
+
+}
+
+
 }
