@@ -4,8 +4,11 @@
 <head>
   <link href="css/bootstrap.css" rel="stylesheet"></link>
   <link href="css/bootstrap-theme.css" rel="stylesheet"></link>
+  <link href="css/bootstrap-datetimepicker.css" rel="stylesheet"></link>
+  <link rel="stylesheet" href="css/bootstrap-tagsinput.css"></link>
   <link href="css/simple-sidebar.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet"></link>
+  <link href="css/popUpStyle.css" rel="stylesheet"></link>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
   <title>OpenInvite</title>
 </head>
@@ -20,7 +23,6 @@
             {{profile.name}}
           </a>
         </li>
-
         <hr></hr>
         <li>
             <a href="/index"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
@@ -52,48 +54,192 @@
     <h1> Explore cultural activities in your city!</h1>
 
     <div class="areas-of-interest__gallery">
-                    <!-- Load the Content -->
+        <!-- Load the Content -->
+            <img src="images/attractions.jpg" class="areas-of-interest__image" alt="City Ballet Performance Art" width="400" height="216">
+            <span class="areas-of-interest__text">Attractions</span>
+    {{#each attractions}}
+    <div class="well well-sm event-item">
+      <div class="event-item-left">
+        <data class="" value={{id}}></data>
+        <!-- Button to open the modal -->
+          <button onclick="document.getElementById('eventPopUp').style.display='block'" type="button" class="btn btn-default" id="createEventButton">
+            <i class="fa fa-plus-square" aria-hidden="true"></i> Create Event
+          </button>
+      </div>
+      <div class="event-item-right">
+        <h4 class="event-item-title">{{name}}</h4>
+        <h5 class="event-item-subtitle text-muted">{{location}}</h5>
+        <p class="card-text">{{description}}</p>
+        <!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+      </div>
+    </div>
+    {{/each}}
 
-        <a href="/dance" class="areas-of-interest__gallery-entry">
-            <img src="https://www.sandiego.org/-/media/images/sdta-site/things-to-do/arts-and-culture/400x216/city-ballet-performance-400x216.jpg?h=216&amp;la=en&amp;w=400" class="areas-of-interest__image" alt="City Ballet Performance Art" width="400" height="216">
-            <span class="areas-of-interest__text">Dance</span>
-        </a>
+
         <a href="/festivals" class="areas-of-interest__gallery-entry">
             <img src="https://www.sandiego.org/-/media/images/sdta-site/things-to-do/arts-and-culture/400x216/san-diego-film-festival-400x216.jpg?h=216&amp;la=en&amp;w=400" class="areas-of-interest__image" alt="San Diego Film Festival" width="400" height="216">
             <span class="areas-of-interest__text">Festivals</span>
         </a>
+        {{#each festivals}}
+    <div class="well well-sm event-item">
+      <div class="event-item-left">
+        <data class="" value={{id}}></data>
+        <!-- Button to open the modal -->
+          <button onclick="document.getElementById('eventPopUp').style.display='block'" type="button" class="btn btn-default" id="createEventButton">
+            <i class="fa fa-plus-square" aria-hidden="true"></i> Create Event
+          </button>
+      </div>
+      <div class="event-item-right">
+        <h4 class="event-item-title">{{name}}</h4>
+        <h5 class="event-item-subtitle text-muted">{{location}}</h5>
+        <p class="card-text">{{description}}</p>
+      </div>
+    </div>
+    {{/each}}
         <a href="/history" class="areas-of-interest__gallery-entry">
          <img src="https://www.sandiego.org/-/media/images/sdta-site/things-to-do/arts-and-culture/400x216/mission-valley-mission-basilica-de-alcala-400x216.jpg?h=216&amp;la=en&amp;w=400" class="areas-of-interest__image" alt="Mission Valley Mission Basilica de Alcala" width="400" height="216">
             <span class="areas-of-interest__text">History &amp; Heritage</span>
         </a>
+    {{#each heritage}}
+    <div class="well well-sm event-item">
+      <div class="event-item-left">
+        <data class="" value={{id}}></data>
+        <!-- Button to open the modal -->
+          <button onclick="document.getElementById('eventPopUp').style.display='block'" type="button" class="btn btn-default" id="createEventButton">
+            <i class="fa fa-plus-square" aria-hidden="true"></i> Create Event
+          </button>
+      </div>
+      <div class="event-item-right">
+        <h4 class="event-item-title">{{name}}</h4>
+        <h5 class="event-item-subtitle text-muted">{{location}}</h5>
+        <p class="card-text">{{description}}</p>
+      </div>
+    </div>
+    {{/each}}
         <a href="/museums" class="areas-of-interest__gallery-entry">
             <img src="https://www.sandiego.org/-/media/images/sdta-site/things-to-do/arts-and-culture/400x216/la-jolla-museum-contemporary-art-unlimited-400x216.jpg?h=216&amp;la=en&amp;w=400" class="areas-of-interest__image" alt="La Jolla Museum of Contemporary Art" width="400" height="216">
             <span class="areas-of-interest__text">Museums &amp; Galleries</span>
         </a>
+    {{#each museums}}
+    <div class="well well-sm event-item">
+      <div class="event-item-left">
+        <data class="" value={{id}}></data>
+        <!-- Button to open the modal -->
+          <button onclick="document.getElementById('eventPopUp').style.display='block'" type="button" class="btn btn-default" id="createEventButton">
+            <i class="fa fa-plus-square" aria-hidden="true"></i> Create Event
+          </button>
+      </div>
+      <div class="event-item-right">
+        <h4 class="event-item-title">{{name}}</h4>
+        <h5 class="event-item-subtitle text-muted">{{location}}</h5>
+        <p class="card-text">{{description}}</p>
+      </div>
+    </div>
+    {{/each}}
         <a href="/music" class="areas-of-interest__gallery-entry">
             <img src="https://www.sandiego.org/-/media/images/sdta-site/things-to-do/arts-and-culture/400x216/guitar-hero-400x216.jpg?h=216&amp;la=en&amp;w=400" class="areas-of-interest__image" alt="Guitar Hero" width="400" height="216">
             <span class="areas-of-interest__text">Music</span>
         </a>
+    {{#each music}}
+    <div class="well well-sm event-item">
+      <div class="event-item-left">
+        <data class="" value={{id}}></data>
+        <!-- Button to open the modal -->
+          <button onclick="document.getElementById('eventPopUp').style.display='block'" type="button" class="btn btn-default" id="createEventButton">
+            <i class="fa fa-plus-square" aria-hidden="true"></i> Create Event
+          </button>
+      </div>
+      <div class="event-item-right">
+        <h4 class="event-item-title">{{name}}</h4>
+        <h5 class="event-item-subtitle text-muted">{{location}}</h5>
+        <p class="card-text">{{description}}</p>
+      </div>
+    </div>
+    {{/each}}
         <a href="/theatre" class="areas-of-interest__gallery-entry">
             <img src="https://www.sandiego.org/-/media/images/sdta-site/things-to-do/arts-and-culture/400x216/cygnet-theatre-town-400x216.jpg?h=216&amp;la=en&amp;w=400" class="areas-of-interest__image" alt="Cygnet Theatre Town" width="400" height="216">
             <span class="areas-of-interest__text">Theatre</span>
         </a>
+    {{#each theatre}}
+    <div class="well well-sm event-item">
+      <div class="event-item-left">
+        <data class="" value={{id}}></data>
+        <!-- Button to open the modal -->
+          <button onclick="document.getElementById('eventPopUp').style.display='block'" type="button" class="btn btn-default" id="createEventButton">
+            <i class="fa fa-plus-square" aria-hidden="true"></i> Create Event
+          </button>
+      </div>
+      <div class="event-item-right">
+        <h4 class="event-item-title">{{name}}</h4>
+        <h5 class="event-item-subtitle text-muted">{{location}}</h5>
+        <p class="card-text">{{description}}</p>
+      </div>
     </div>
-
-
-
-
-
-
-
-
+    {{/each}}
+    </div>
   </div>
+  <!-- The Modal (contains the Sign Up form) -->
+<div id="eventPopUp" class="modal">
+    <span onclick="document.getElementById('eventPopUp').style.display='none'" class="close" title="Close Modal">&times;</span>
+
+    <form class="modal-content animate" id="newEvent" action="/new_event" method="post">
+
+      <div class="popup-container">
+            <label><b>Title</b></label>
+            <input type="text" placeholder="My Awesome Event" name="name" required>
+            <label><b>Location</b></label>
+            <input type="text" placeholder="@My Place" name="location" required>
+      <!--
+      <br>
+      <label><b>Date</b></label>
+            <input type="text" placeholder="4 Feb" name="date" required>
+      <label><b>Time</b></label>
+            <input type="text" placeholder="5:00pm" name="time" required>
+      -->
+            <label><b>Date and Time</b></label>
+            <div class="input-append date form_datetime">
+                <input size="16" type="text" name="datetime" required>
+                <span class="add-on"><i class="icon-remove"></i></span>
+                <span class="add-on"><i class="icon-th"></i></span>
+            </div>
+
+            <label><b>Description</b></label>
+            <input type="text" placeholder="Come to My Awesome Event" name="description" required>
+
+            <label><b>Tags (optional)</b></label><br/>
+            <select class="tagbox" name="tags" multiple data-role="tagsinput">
+            </select>
+
+
+        <!--<p>By creating an event you agree to our <a href="#">Terms & Privacy</a>.</p>-->
+        <div class="clearfix">
+          <button type="submit" class="signupbtn btn" id="submitNewEvent">Create Event</button>
+          <button type="button" onclick="document.getElementById('eventPopUp').style.display='none'" class="cancelbtn btn" id="cancelNewEvent">Cancel</button>
+        </div>
+      </div>
+    </form>
+</div>
 
   </div>
   <script src="https://use.fontawesome.com/6a9c821b61.js"></script>
   <script src="js/jquery-1.11.0.js"></script>
   <script src="js/bootstrap.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/popUp.js"></script>
+  <script src="js/bootstrap-datetimepicker.js" charset="UTF-8"></script>
+  <script type="text/javascript">
+    $(".form_datetime").datetimepicker({
+        format: "dd MM yyyy, HH:ii P",
+        showMeridian: true,
+        autoclose: true,
+        todayBtn: true,
+        fontAwesome: true,
+    });
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typeahead.js/0.11.1/typeahead.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular.min.js"></script>
+  <script src="js/bootstrap-tagsinput.js"></script>
+  <script src="js/bootstrap-tagsinput-angular.js"></script>
 </body>
 
 </html>
