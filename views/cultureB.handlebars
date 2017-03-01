@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet"></link>
+  <link href="css/bootstrap-theme.css" rel="stylesheet"></link>
+  <link href="css/simple-sidebar.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet"></link>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
+  <title>OpenInvite</title>
+</head>
+
+<body>
+  <div id="wrapper">
+    <div id="sidebar-wrapper">
+      <ul class="sidebar-nav">
+        <li class="sidebar-brand">
+          <a href="/profile">
+            <img class="profile-picture" src="{{profile.profilePicture}}"></img>
+            {{profile.name}}
+          </a>
+        </li>
+
+        <hr></hr>
+        <li>
+            <a href="/index"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+        </li>
+        <li>
+            <a href="/events"><i class="fa fa-calendar-check-o" aria-hidden="true"></i> My Events</a>
+        </li>
+        <li class="sidebar-nav-active">
+            <a href="/culture"><i class="fa fa-compass" aria-hidden="true"></i> Explore Local Culture</a>
+        </li>
+        <li>
+            <a href="/help"><i class="fa fa-question-circle" aria-hidden="true"></i> FAQ</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="banner">
+      <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+      </a>
+
+      <div class="jumbotron text-center">
+        <h1>OpenInvite</h1>
+      </div>
+    </div>
+
+    <!--dummy functionality pulled from San Diego webpage-->
+  <div id="culture">
+    <h1> Explore cultural activities in your city!</h1>
+
+    <div class="areas-of-interest__gallery">
+                    <!-- Load the Content -->
+
+        <a href="/dance" class="areas-of-interest__gallery-entry">
+            <img src="https://www.sandiego.org/-/media/images/sdta-site/things-to-do/arts-and-culture/400x216/city-ballet-performance-400x216.jpg?h=216&amp;la=en&amp;w=400" class="areas-of-interest__image" alt="City Ballet Performance Art" width="400" height="216">
+            <span class="areas-of-interest__text">Dance</span>
+        </a>
+        <a href="/festivals" class="areas-of-interest__gallery-entry">
+            <img src="https://www.sandiego.org/-/media/images/sdta-site/things-to-do/arts-and-culture/400x216/san-diego-film-festival-400x216.jpg?h=216&amp;la=en&amp;w=400" class="areas-of-interest__image" alt="San Diego Film Festival" width="400" height="216">
+            <span class="areas-of-interest__text">Festivals</span>
+        </a>
+        <a href="/history" class="areas-of-interest__gallery-entry">
+         <img src="https://www.sandiego.org/-/media/images/sdta-site/things-to-do/arts-and-culture/400x216/mission-valley-mission-basilica-de-alcala-400x216.jpg?h=216&amp;la=en&amp;w=400" class="areas-of-interest__image" alt="Mission Valley Mission Basilica de Alcala" width="400" height="216">
+            <span class="areas-of-interest__text">History &amp; Heritage</span>
+        </a>
+        <a href="/museums" class="areas-of-interest__gallery-entry">
+            <img src="https://www.sandiego.org/-/media/images/sdta-site/things-to-do/arts-and-culture/400x216/la-jolla-museum-contemporary-art-unlimited-400x216.jpg?h=216&amp;la=en&amp;w=400" class="areas-of-interest__image" alt="La Jolla Museum of Contemporary Art" width="400" height="216">
+            <span class="areas-of-interest__text">Museums &amp; Galleries</span>
+        </a>
+        <a href="/music" class="areas-of-interest__gallery-entry">
+            <img src="https://www.sandiego.org/-/media/images/sdta-site/things-to-do/arts-and-culture/400x216/guitar-hero-400x216.jpg?h=216&amp;la=en&amp;w=400" class="areas-of-interest__image" alt="Guitar Hero" width="400" height="216">
+            <span class="areas-of-interest__text">Music</span>
+        </a>
+        <a href="/theatre" class="areas-of-interest__gallery-entry">
+            <img src="https://www.sandiego.org/-/media/images/sdta-site/things-to-do/arts-and-culture/400x216/cygnet-theatre-town-400x216.jpg?h=216&amp;la=en&amp;w=400" class="areas-of-interest__image" alt="Cygnet Theatre Town" width="400" height="216">
+            <span class="areas-of-interest__text">Theatre</span>
+        </a>
+    </div>
+
+
+
+
+
+
+
+
+  </div>
+
+  </div>
+  <script src="https://use.fontawesome.com/6a9c821b61.js"></script>
+  <script src="js/jquery-1.11.0.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
