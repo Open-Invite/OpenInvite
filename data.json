@@ -423,7 +423,7 @@
       "longitude": -117.242696,
       "going": [],
       "cancelled": [],
-      "tags": [],
+      "tags": ["attractions"],
       "description": "An urban paradise for all ages, the San Diego Zoo is a must-see in Southern California, with more than 4,000 rare and fascinating animals. See giant pandas, Komodo dragons, gorillas, tigers, flamingos, polar bears, and many more. Visit our 25 koalas in the brand-new Australian Outback! Parking at the Zoo is Free."
     },
     {
@@ -434,7 +434,7 @@
       "longitude": -117.242696,
       "going": [],
       "cancelled": [],
-      "tags": [],
+      "tags": ["attractions"],
       "description": "Come celebrate the wonders of the sea at SeaWorld® San Diego. Experience the Shamu® show, One Ocean®, and thrilling rides like Journey To Atlantis®, Shipwreck Rapids® and Wild Arctic®. Join Elmo and his friends at the Sesame Street Bay of Play® featuring family-friendly rides. Dont miss the Pets Rule! ® show and the hilarious antics of Clyde and Seamores sea lion and otter show. Feed and touch dolphins and bat rays, and get up-close to beluga whales, polar bears, sharks and penguins. Enjoy fascinating aquariums and exotic birds from around the world. Then dive into the world of sea turtles at the Turtle Reef attraction. And, soar, dive and twist like a ray on Manta, the newest coaster that only SeaWorld could create."
     },
     {
@@ -445,7 +445,7 @@
       "longitude": -117.242696,
       "going": [],
       "cancelled": [],
-      "tags": [],
+      "tags": ["attractions"],
       "description": "LEGOLAND® California Resort has more than 60 rides, shows and attractions including the new LEGO® Star Wars™: The Force Awakens Miniland Model Display! In March, a 16-foot long Finalizer model made completely out of LEGO bricks will also feature six brick-built scenes including Rey's rescue of BB-8, and Poe and Finn's escape from the Finalizer! Inside LEGOLAND, enter a world of knights and princesses to conquer the Dragon Coaster. Kids drive cars at Driving School. Make new friends at LEGO Friends Heartlake City. The Resort is also home to LEGOLAND Water Park and the wonder-filled SEA LIFE® Aquarium. NEW for 2017, cool off inside Surfers' Cove  a new water park expansion featuring racer-water slides and an epic splash zone opening summer."
     }
     ],
@@ -458,7 +458,7 @@
       "longitude": -117.242696,
       "going": [],
       "cancelled": [],
-      "tags": [],
+      "tags": ["festivals"],
       "description": "With world-famous Balboa Park as its festival site and a mile-long parade route stretching through one of the most gay-friendly neighborhoods in the nation, San Diego LGBT Pride attracts nearly 300,000 locals and visitors to its annual three-day Pride celebration in July"
     },
     {
@@ -469,7 +469,7 @@
       "longitude": -117.242696,
       "going": [],
       "cancelled": [],
-      "tags": [],
+      "tags": ["festivals"],
       "description": "If you enjoy celebrity spotting, the red carpet at the San Diego Film Festival is your best bet. The festival spans five days every September with over 100 independent and studio films shown in two locations: La Jolla and downtown's Gaslamp Quarter. Acclaimed films like '12 Years A Slave' and 'Silver Linings Playbook' were both screened at the festival before becoming Academy Award winners. Interviews with filmmakers and actors also take place throughout the festival run. Like most of the film organizations in town, this group also programs screenings throughout the year."
     },
     
@@ -481,7 +481,7 @@
       "longitude": -117.242696,
       "going": [],
       "cancelled": [],
-      "tags": [],
+      "tags": ["festivals"],
       "description": "Enjoy more than 200 beers from nearly 100 local breweries, grab a sensible lunch in our food truck alley and listen to the sweet sounds of local bands - all while taking in the gorgeous views of Coronado and downtown San Diego. To recap...You. Beer. Music. Food trucks. San Diego Bay. The whole shebang. There is no physical way in the universe you can enjoy a day better than this. We've done the research. It's science."
     }
   ],
@@ -494,21 +494,32 @@
       "longitude": -117.242696,
       "going": [],
       "cancelled": [],
-      "tags": [],
+      "tags": ["history"],
       "description": ""
     }
   ],
   "museums": [
     {
       "id": 6,
-      "name": "San Diego Zoo",
+      "name": "Balboa Park",
       "location": "San Diego",
       "latitude": 32.888295,
       "longitude": -117.242696,
       "going": [],
       "cancelled": [],
-      "tags": [],
-      "description": ""
+      "tags": ["museums"],
+      "description": "Often referred to as the \"Smithsonian of the West,\" Balboa Park is the largest urban park with cultural institutions in the United States. Fifteen museums devoted to topics as varied as anthropology, art, aviation, natural science and technology are spread throughout the pristine gardens and historic Spanish Colonial architecture in Balboa Park."
+    },
+    {
+    "id": 6,
+      "name": "Old Town San Diego",
+      "location": "San Diego",
+      "latitude": 32.888295,
+      "longitude": -117.242696,
+      "going": [],
+      "cancelled": [],
+      "tags": ["museums"],
+      "description": "Considered the “birth place” of California, Old Town San Diego gives visitors a glimpse into San Diego’s colonial period from 1821-1872. Many of the historical sites and museums in this neighborhood have free admission. Over a hundred shops and boutiques line the streets, along with plenty of restaurants. At the center of Old Town is the Whaley House Museum Complex, which consists of five historic buildings, the most famous of which is the Whaley House, the most haunted house in the country according to the Travel Channel’s “America's Most Haunted.”                                                                  View a rare original stagecoach at the Wells Fargo Museum, see a scale model of 19th century Old Town at the reconstructed Robinson-Rose House, and tour the Black Hawk Livery & Blacksmith, the first public schoolhouse in San Diego. Casa de Estudillo is considered one of the finest adobe haciendas in the state. Up the hill you’ll discover Heritage Park, a 7.8 acre county park where seven Victorian homes have been relocated and now house shops, bed and breakfasts, and the Serra Museum, site of California’s first mission and fort."
     }
   ],
   "music": [
@@ -520,7 +531,7 @@
       "longitude": -117.242696,
       "going": [],
       "cancelled": [],
-      "tags": [],
+      "tags": ["music"],
       "description": ""
     }
   ],
@@ -533,7 +544,7 @@
       "longitude": -117.242696,
       "going": [],
       "cancelled": [],
-      "tags": [],
+      "tags": ["theatre"],
       "description": "The Tony Award-winning La Jolla Playhouse is internationally-renowned for creating some of the most exciting and adventurous work in American theatre, through its new play development initiatives, its innovative Without Walls series, artist residencies and commissions. La Jolla Playhouse has had 25 productions transfer to Broadway, garnering 35 Tony Awards."
     }
   ]
