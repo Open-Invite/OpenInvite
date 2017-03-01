@@ -413,7 +413,7 @@
     }
   ],
 
-"culture": {
+"cultureNew": {
     "attractions": [
       {
       "id": 0,
@@ -424,9 +424,7 @@
       "going": [],
       "cancelled": [],
       "tags": [],
-      "description": "An urban paradise for all ages, the San Diego Zoo is a must-see in Southern California, with more than 4,000 rare and fascinating animals. See giant pandas, Komodo dragons, gorillas, tigers, flamingos, polar bears, and many more. Visit our 25 koalas in the brand-new Australian Outback! 
-
-Parking at the Zoo is Free."
+      "description": "An urban paradise for all ages, the San Diego Zoo is a must-see in Southern California, with more than 4,000 rare and fascinating animals. See giant pandas, Komodo dragons, gorillas, tigers, flamingos, polar bears, and many more. Visit our 25 koalas in the brand-new Australian Outback! Parking at the Zoo is Free."
     },
     {
       "id": 1,
@@ -472,7 +470,7 @@ Parking at the Zoo is Free."
       "going": [],
       "cancelled": [],
       "tags": [],
-      "description": "If you enjoy celebrity spotting, the red carpet at the San Diego Film Festival is your best bet. The festival spans five days every September with over 100 independent and studio films shown in two locations: La Jolla and downtown's Gaslamp Quarter. Acclaimed films like "12 Years A Slave" and "Silver Linings Playbook" were both screened at the festival before becoming Academy Award winners. Interviews with filmmakers and actors also take place throughout the festival run. Like most of the film organizations in town, this group also programs screenings throughout the year."
+      "description": "If you enjoy celebrity spotting, the red carpet at the San Diego Film Festival is your best bet. The festival spans five days every September with over 100 independent and studio films shown in two locations: La Jolla and downtown's Gaslamp Quarter. Acclaimed films like '12 Years A Slave' and 'Silver Linings Playbook' were both screened at the festival before becoming Academy Award winners. Interviews with filmmakers and actors also take place throughout the festival run. Like most of the film organizations in town, this group also programs screenings throughout the year."
     },
     
     {
@@ -529,19 +527,16 @@ Parking at the Zoo is Free."
 "theatre": [
     {
       "id": 6,
-      "name": "San Diego Zoo",
+      "name": "La Jolla Playhouse",
       "location": "San Diego",
       "latitude": 32.888295,
       "longitude": -117.242696,
       "going": [],
       "cancelled": [],
       "tags": [],
-      "description": ""
+      "description": "The Tony Award-winning La Jolla Playhouse is internationally-renowned for creating some of the most exciting and adventurous work in American theatre, through its new play development initiatives, its innovative Without Walls series, artist residencies and commissions. La Jolla Playhouse has had 25 productions transfer to Broadway, garnering 35 Tony Awards."
     }
-  ],
-
-
+  ]
+ }
 }
 
-
-}
