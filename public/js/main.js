@@ -58,3 +58,7 @@ $('#newEvent').submit(function(event) {
 
   // Contiue submision
 });
+
+$('.newEventCulture').click(function(e){
+  console.log(e);
+})
