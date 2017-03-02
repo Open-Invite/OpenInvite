@@ -488,19 +488,17 @@
     "heritage": [
     {
       "id": 0,
-      "name": "San Diego Zoo",
+      "name": "Cabrillo National Monument",
       "location": "San Diego",
       "latitude": 32.888295,
       "longitude": -117.242696,
       "going": [],
       "cancelled": [],
       "tags": ["history"],
-      "description": ""
-    }
-  ],
-  "museums": [
+      "description": "A visit to San Diego's \"only\" National Park offers tremendous views of the San Diego region and excellent opportunities to explore the natural, historical and cultural history of the area. The Visitors Center is a good place to start your exploration of the park. The \"Age of Exploration\" exhibit, films, and ranger-guided programs present interesting insights into the history of Cabrillo. A short walk leads to the Old Point Loma Lighthouse. This picturesque structure is restored to its 1880’s appearance and presents life as it was for the light keepers and their families. In the adjacent Assistant Keeper's Quarters, interactive exhibits tell the story of the Lighthouses of Point Loma. In a nearby historic Military building, the exhibit \"They Stood the Watch\" presents the history of Fort Rosecrans. The bayside trail begins near the lighthouse and offers breathtaking views of the harbor and the city of San Diego."
+    },
     {
-      "id": 0,
+      "id": 1,
       "name": "Balboa Park",
       "location": "San Diego",
       "latitude": 32.888295,
@@ -511,7 +509,7 @@
       "description": "Often referred to as the \"Smithsonian of the West,\" Balboa Park is the largest urban park with cultural institutions in the United States. Fifteen museums devoted to topics as varied as anthropology, art, aviation, natural science and technology are spread throughout the pristine gardens and historic Spanish Colonial architecture in Balboa Park."
     },
     {
-    "id": 1,
+    "id": 2,
       "name": "Old Town San Diego",
       "location": "San Diego",
       "latitude": 32.888295,
@@ -520,9 +518,11 @@
       "cancelled": [],
       "tags": ["museums"],
       "description": "Considered the “birth place” of California, Old Town San Diego gives visitors a glimpse into San Diego’s colonial period from 1821-1872. Many of the historical sites and museums in this neighborhood have free admission. Over a hundred shops and boutiques line the streets, along with plenty of restaurants. At the center of Old Town is the Whaley House Museum Complex, which consists of five historic buildings, the most famous of which is the Whaley House, the most haunted house in the country according to the Travel Channel’s “America's Most Haunted.”                                                                  View a rare original stagecoach at the Wells Fargo Museum, see a scale model of 19th century Old Town at the reconstructed Robinson-Rose House, and tour the Black Hawk Livery & Blacksmith, the first public schoolhouse in San Diego. Casa de Estudillo is considered one of the finest adobe haciendas in the state. Up the hill you’ll discover Heritage Park, a 7.8 acre county park where seven Victorian homes have been relocated and now house shops, bed and breakfasts, and the Serra Museum, site of California’s first mission and fort."
-    },
+    }
+  ],
+  "museums": [
   {
-    "id": 2,
+    "id": 0,
       "name": "San Diego Natural History Museum",
       "location": "San Diego",
       "latitude": 32.888295,
@@ -533,7 +533,7 @@
       "description": " Explore the natural history of southern California - from past to present - at the San Diego Natural History Museum (theNAT). From rattlesnakes and flesh-eating beetles, to dinosaurs and fossils, to a Foucault pendulum that proves the earth is spinning, there's something for everyone at theNAT, a flagship institutoin in beautiful Balboa Park. Visitors will be impressed by the unique, interactive exhibitions that span across five floors. The museum features a giant-screen theater with daily showings of 2D and 3D films as well as rotating exhibitions that bring nature to life."
   },
     {
-    "id": 3,
+    "id": 1,
       "name": "San Diego Museum of Art",
       "location": "San Diego",
       "latitude": 32.888295,
@@ -547,7 +547,7 @@
   "music": [
     {
       "id": 0,
-      "name": "House of BLues",
+      "name": "House of Blues",
       "location": "San Diego",
       "latitude": 32.888295,
       "longitude": -117.242696,
