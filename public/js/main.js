@@ -60,5 +60,12 @@ $('#newEvent').submit(function(event) {
 });
 
 $('.newEventCulture').click(function(e){
-  console.log(e);
+  var eventInfo = $(this).closest('.well-sm').find('.event-item-right');
+  var title = eventInfo.find('.event-item-title').text();
+  var location = eventInfo.find('.event-item-subtitle').text();
+  var description = eventInfo.find('.card-text').text();
+  var popup = $('.popup-container');
+  popup.find('.popupTitle').val(title);
+  popup.find('.popupLocation').val(location);
+  popup.find('.popupDescription').val(description);
 })
