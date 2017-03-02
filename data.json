@@ -451,7 +451,7 @@
     ],
     "festivals": [
     {
-      "id": 3,
+      "id": 0,
       "name": "San Diego LGBT Pride Parade & Festival",
       "location": "San Diego",
       "latitude": 32.888295,
@@ -462,7 +462,7 @@
       "description": "With world-famous Balboa Park as its festival site and a mile-long parade route stretching through one of the most gay-friendly neighborhoods in the nation, San Diego LGBT Pride attracts nearly 300,000 locals and visitors to its annual three-day Pride celebration in July"
     },
     {
-      "id": 4,
+      "id": 1,
       "name": "San Diego Film Festival",
       "location": "San Diego",
       "latitude": 32.888295,
@@ -474,7 +474,7 @@
     },
     
     {
-      "id": 5,
+      "id": 2,
       "name": "Best Coast Beer Fest 2017",
       "location": "San Diego",
       "latitude": 32.888295,
@@ -487,7 +487,7 @@
   ],
     "heritage": [
     {
-      "id": 6,
+      "id": 0,
       "name": "San Diego Zoo",
       "location": "San Diego",
       "latitude": 32.888295,
@@ -500,7 +500,7 @@
   ],
   "museums": [
     {
-      "id": 6,
+      "id": 0,
       "name": "Balboa Park",
       "location": "San Diego",
       "latitude": 32.888295,
@@ -511,7 +511,7 @@
       "description": "Often referred to as the \"Smithsonian of the West,\" Balboa Park is the largest urban park with cultural institutions in the United States. Fifteen museums devoted to topics as varied as anthropology, art, aviation, natural science and technology are spread throughout the pristine gardens and historic Spanish Colonial architecture in Balboa Park."
     },
     {
-    "id": 6,
+    "id": 1,
       "name": "Old Town San Diego",
       "location": "San Diego",
       "latitude": 32.888295,
@@ -520,26 +520,59 @@
       "cancelled": [],
       "tags": ["museums"],
       "description": "Considered the “birth place” of California, Old Town San Diego gives visitors a glimpse into San Diego’s colonial period from 1821-1872. Many of the historical sites and museums in this neighborhood have free admission. Over a hundred shops and boutiques line the streets, along with plenty of restaurants. At the center of Old Town is the Whaley House Museum Complex, which consists of five historic buildings, the most famous of which is the Whaley House, the most haunted house in the country according to the Travel Channel’s “America's Most Haunted.”                                                                  View a rare original stagecoach at the Wells Fargo Museum, see a scale model of 19th century Old Town at the reconstructed Robinson-Rose House, and tour the Black Hawk Livery & Blacksmith, the first public schoolhouse in San Diego. Casa de Estudillo is considered one of the finest adobe haciendas in the state. Up the hill you’ll discover Heritage Park, a 7.8 acre county park where seven Victorian homes have been relocated and now house shops, bed and breakfasts, and the Serra Museum, site of California’s first mission and fort."
+    },
+  {
+    "id": 2,
+      "name": "San Diego Natural History Museum",
+      "location": "San Diego",
+      "latitude": 32.888295,
+      "longitude": -117.242696,
+      "going": [],
+      "cancelled": [],
+      "tags": ["museums"],
+      "description": " Explore the natural history of southern California - from past to present - at the San Diego Natural History Museum (theNAT). From rattlesnakes and flesh-eating beetles, to dinosaurs and fossils, to a Foucault pendulum that proves the earth is spinning, there's something for everyone at theNAT, a flagship institutoin in beautiful Balboa Park. Visitors will be impressed by the unique, interactive exhibitions that span across five floors. The museum features a giant-screen theater with daily showings of 2D and 3D films as well as rotating exhibitions that bring nature to life."
+  },
+    {
+    "id": 3,
+      "name": "San Diego Museum of Art",
+      "location": "San Diego",
+      "latitude": 32.888295,
+      "longitude": -117.242696,
+      "going": [],
+      "cancelled": [],
+      "tags": ["museums"],
+      "description": "Providing a rich and diverse cultural experience, The San Diego Museum of Art houses the world’s finest art in America’s Finest City. Located in the heart of Balboa Park, the Museum’s nationally renowned collections include Spanish and Italian old masters, South Asian paintings including the Edwin Binney 3rd Collection of Indian paintings, and 19th and 20th century American paintings and sculptures. At The San Diego Museum of Art, exhibition text is always in English and Spanish."
     }
   ],
   "music": [
     {
-      "id": 6,
-      "name": "San Diego Zoo",
+      "id": 0,
+      "name": "House of BLues",
       "location": "San Diego",
       "latitude": 32.888295,
       "longitude": -117.242696,
       "going": [],
       "cancelled": [],
       "tags": ["music"],
-      "description": ""
+      "description": "Downtown's Gaslamp Quarter has no shortage of dining options - there's about a half-dozen restaurants on any given block. But on a busy night, you probably don't want to run the risk of showing up late to a show, which is very likely to happen if you didn't take the extra step of making reservations. If you're headed to House of Blues, however, its Crossroads restaurant offers a hearty helping of Cajun and southern cuisine. Indulge in some voodoo shrimp, pulled pork sliders, St. Louis ribs or jambalaya before the lights go down and the volume goes up. The dining room is open until 11:00 PM, so on the rare night the show ends a little early, you can even catch a late-night snack before heading home."
+    },
+    {
+     "id": 1,
+      "name": "The Loft @ UCSD",
+      "location": "La Jolla",
+      "latitude": 32.888295,
+      "longitude": -117.242696,
+      "going": [],
+      "cancelled": [],
+      "tags": ["music"],
+      "description": "The Loft, nestled in a cozy corner of Price Center at UC San Diego in La Jolla, is a music venue, but even more than that, it's an all-purpose social gathering place for students and visitors alike. Several nights a week, it hosts live music from pop, electronic and jazz artists, as well as comedy, poetry and the occasional lecture series. But it's also home to Zanzibar, a café that's open from breakfast through happy hour on most days. The exception, of course, is on nights with live performances, during which you can grab a flatbread, a basket of fries, sliders or wings while you sit back and soak in the music in some of the most comfortable seats in any venue in San Diego. Not a bad way to close out the day."
     }
   ],
 "theatre": [
     {
-      "id": 6,
+      "id": 0,
       "name": "La Jolla Playhouse",
-      "location": "San Diego",
+      "location": "La Jolla",
       "latitude": 32.888295,
       "longitude": -117.242696,
       "going": [],

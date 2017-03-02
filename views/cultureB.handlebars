@@ -57,7 +57,7 @@
         <!-- Load the Content -->
             <img src="images/attractions.jpg" class="areas-of-interest__image" alt="City Ballet Performance Art" width="400" height="216">
             <span class="areas-of-interest__text">Attractions</span>
-    {{#each attractions}}
+    {{#each cultureNew.attractions}}
     <div class="well well-sm event-item">
       <div class="event-item-left">
         <data class="" value={{id}}></data>
@@ -76,11 +76,10 @@
     {{/each}}
 
 
-        <a href="/festivals" class="areas-of-interest__gallery-entry">
-            <img src="https://www.sandiego.org/-/media/images/sdta-site/things-to-do/arts-and-culture/400x216/san-diego-film-festival-400x216.jpg?h=216&amp;la=en&amp;w=400" class="areas-of-interest__image" alt="San Diego Film Festival" width="400" height="216">
-            <span class="areas-of-interest__text">Festivals</span>
-        </a>
-        {{#each festivals}}
+
+      <img src="https://www.sandiego.org/-/media/images/sdta-site/things-to-do/arts-and-culture/400x216/san-diego-film-festival-400x216.jpg?h=216&amp;la=en&amp;w=400" class="areas-of-interest__image" alt="San Diego Film Festival" width="400" height="216">
+      <span class="areas-of-interest__text">Festivals</span>
+        {{#each cultureNew.festivals}}
     <div class="well well-sm event-item">
       <div class="event-item-left">
         <data class="" value={{id}}></data>
@@ -96,11 +95,9 @@
       </div>
     </div>
     {{/each}}
-        <a href="/history" class="areas-of-interest__gallery-entry">
          <img src="https://www.sandiego.org/-/media/images/sdta-site/things-to-do/arts-and-culture/400x216/mission-valley-mission-basilica-de-alcala-400x216.jpg?h=216&amp;la=en&amp;w=400" class="areas-of-interest__image" alt="Mission Valley Mission Basilica de Alcala" width="400" height="216">
             <span class="areas-of-interest__text">History &amp; Heritage</span>
-        </a>
-    {{#each heritage}}
+    {{#each cultureNew.heritage}}
     <div class="well well-sm event-item">
       <div class="event-item-left">
         <data class="" value={{id}}></data>
@@ -116,11 +113,11 @@
       </div>
     </div>
     {{/each}}
-        <a href="/museums" class="areas-of-interest__gallery-entry">
+
             <img src="https://www.sandiego.org/-/media/images/sdta-site/things-to-do/arts-and-culture/400x216/la-jolla-museum-contemporary-art-unlimited-400x216.jpg?h=216&amp;la=en&amp;w=400" class="areas-of-interest__image" alt="La Jolla Museum of Contemporary Art" width="400" height="216">
             <span class="areas-of-interest__text">Museums &amp; Galleries</span>
-        </a>
-    {{#each museums}}
+
+    {{#each cultureNew.museums}}
     <div class="well well-sm event-item">
       <div class="event-item-left">
         <data class="" value={{id}}></data>
@@ -136,11 +133,10 @@
       </div>
     </div>
     {{/each}}
-        <a href="/music" class="areas-of-interest__gallery-entry">
             <img src="https://www.sandiego.org/-/media/images/sdta-site/things-to-do/arts-and-culture/400x216/guitar-hero-400x216.jpg?h=216&amp;la=en&amp;w=400" class="areas-of-interest__image" alt="Guitar Hero" width="400" height="216">
             <span class="areas-of-interest__text">Music</span>
-        </a>
-    {{#each music}}
+        
+    {{#each cultureNew.music}}
     <div class="well well-sm event-item">
       <div class="event-item-left">
         <data class="" value={{id}}></data>
@@ -156,11 +152,9 @@
       </div>
     </div>
     {{/each}}
-        <a href="/theatre" class="areas-of-interest__gallery-entry">
             <img src="https://www.sandiego.org/-/media/images/sdta-site/things-to-do/arts-and-culture/400x216/cygnet-theatre-town-400x216.jpg?h=216&amp;la=en&amp;w=400" class="areas-of-interest__image" alt="Cygnet Theatre Town" width="400" height="216">
             <span class="areas-of-interest__text">Theatre</span>
-        </a>
-    {{#each theatre}}
+    {{#each cultureNew.theatre}}
     <div class="well well-sm event-item">
       <div class="event-item-left">
         <data class="" value={{id}}></data>
@@ -240,6 +234,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular.min.js"></script>
   <script src="js/bootstrap-tagsinput.js"></script>
   <script src="js/bootstrap-tagsinput-angular.js"></script>
+
 </body>
 
 </html>
