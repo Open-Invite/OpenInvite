@@ -60,11 +60,14 @@ $('#newEvent').submit(function(event) {
 });
 
 $('.newEventCulture').click(function(e){
-  var eventInfo = $(this).closest('.well-sm').find('.event-item-right');
+  var card = $(this).closest('.well-sm');
+  var eventInfo = card.find('.event-item-right');
   var title = eventInfo.find('.event-item-title').text();
   var location = eventInfo.find('.event-item-subtitle').text();
   var description = eventInfo.find('.card-text').text();
+  var tag = card.prevAll('.areas-of-interest__text:first').text();
   var popup = $('.popup-container');
+  var tagbox = $('.tagbox');
   popup.find('.popupTitle').val(title);
   popup.find('.popupLocation').val(location);
   popup.find('.popupDescription').val(description);
