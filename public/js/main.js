@@ -44,11 +44,22 @@ function showPosition(position) {
   console.log(lat + ", " + lon);
 }
 
+$('.form_datetime').find('input').change(function(e){
+  data = $("#newEvent :input").serializeArray();
+  if(Date.parse(data[2].value) <= Date.now()){
+    this.setCustomValidity('Please enter a date in the future.');
+  } else if(data[2].value == "") {
+    this.setCustomValidity('Please fill out this field.');
+  } else {
+    this.setCustomValidity('');
+  }
+});
+
 $('#newEvent').submit(function(event) {
   console.log(event);
   console.log("prevented default");
   console.log($("#newEvent :input").serializeArray());
-  data = $("#newEvent :input").serializeArray();
+  var data = $("#newEvent :input").serializeArray();
 
   // If date is old
   if(Date.parse(data[2].value) <= Date.now() || data[2].value == ""){
