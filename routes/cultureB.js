@@ -5,5 +5,5 @@ var data = require('../data.json');
  */
 exports.view = function(req, res){
   var newData = JSON.parse(JSON.stringify(data));
-  res.render('cultureB', newData.cultureNew);
+  res.render('cultureB', newData);
 }
