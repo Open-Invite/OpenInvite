@@ -154,7 +154,11 @@ button {
     background-color: #f44336 !important;
 }
 
-
+/*Design for OpenInvite Logo*/
+.logo {
+  text-align: center,
+  width: 70%;
+}
 /* Center the avatar image inside this container */
 .imgcontainer {
     text-align: center;
@@ -163,7 +167,7 @@ button {
 
 /* Avatar image */
 img.avatar {
-    border-radius: 50%;
+    border-radius: 0%;
 }
 
 /* Add padding to containers */
