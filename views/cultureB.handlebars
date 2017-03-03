@@ -46,6 +46,14 @@
 
       <div class="jumbotron text-center">
         <h1>OpenInvite</h1>
+        <div class="row-fluid">
+          <a href="#attractions">Attractions</a> |
+          <a href="#festivals">Festivals</a> |
+          <a href="#history">History</a> |
+          <a href="#museums">Museums</a> |
+          <a href="#music">Music</a> |
+          <a href="#theatre">Theatre</a>
+        </div>
       </div>
     </div>
 
@@ -55,7 +63,7 @@
 
     <div class="areas-of-interest__gallery">
         <!-- Load the Content -->
-            <img src="images/attractions.jpg" class="areas-of-interest__image" alt="City Ballet Performance Art" width="400" height="216">
+            <img id="attractions" src="images/attractions.jpg" class="areas-of-interest__image" alt="City Ballet Performance Art" width="400" height="216">
             <span class="areas-of-interest__text">Attractions</span>
     {{#each cultureNew.attractions}}
     <div class="well well-sm event-item">
@@ -77,7 +85,7 @@
 
 
 
-      <img src="https://www.sandiego.org/-/media/images/sdta-site/things-to-do/arts-and-culture/400x216/san-diego-film-festival-400x216.jpg?h=216&amp;la=en&amp;w=400" class="areas-of-interest__image" alt="San Diego Film Festival" width="400" height="216">
+      <img id="festivals"  src="https://www.sandiego.org/-/media/images/sdta-site/things-to-do/arts-and-culture/400x216/san-diego-film-festival-400x216.jpg?h=216&amp;la=en&amp;w=400" class="areas-of-interest__image" alt="San Diego Film Festival" width="400" height="216">
       <span class="areas-of-interest__text">Festivals</span>
         {{#each cultureNew.festivals}}
     <div class="well well-sm event-item">
@@ -95,7 +103,7 @@
       </div>
     </div>
     {{/each}}
-         <img src="https://www.sandiego.org/-/media/images/sdta-site/things-to-do/arts-and-culture/400x216/mission-valley-mission-basilica-de-alcala-400x216.jpg?h=216&amp;la=en&amp;w=400" class="areas-of-interest__image" alt="Mission Valley Mission Basilica de Alcala" width="400" height="216">
+         <img id="history"  src="https://www.sandiego.org/-/media/images/sdta-site/things-to-do/arts-and-culture/400x216/mission-valley-mission-basilica-de-alcala-400x216.jpg?h=216&amp;la=en&amp;w=400" class="areas-of-interest__image" alt="Mission Valley Mission Basilica de Alcala" width="400" height="216">
             <span class="areas-of-interest__text">History &amp; Heritage</span>
     {{#each cultureNew.heritage}}
     <div class="well well-sm event-item">
@@ -114,7 +122,7 @@
     </div>
     {{/each}}
 
-            <img src="https://www.sandiego.org/-/media/images/sdta-site/things-to-do/arts-and-culture/400x216/la-jolla-museum-contemporary-art-unlimited-400x216.jpg?h=216&amp;la=en&amp;w=400" class="areas-of-interest__image" alt="La Jolla Museum of Contemporary Art" width="400" height="216">
+            <img id="museums"  src="https://www.sandiego.org/-/media/images/sdta-site/things-to-do/arts-and-culture/400x216/la-jolla-museum-contemporary-art-unlimited-400x216.jpg?h=216&amp;la=en&amp;w=400" class="areas-of-interest__image" alt="La Jolla Museum of Contemporary Art" width="400" height="216">
             <span class="areas-of-interest__text">Museums &amp; Galleries</span>
 
     {{#each cultureNew.museums}}
@@ -133,9 +141,9 @@
       </div>
     </div>
     {{/each}}
-            <img src="https://www.sandiego.org/-/media/images/sdta-site/things-to-do/arts-and-culture/400x216/guitar-hero-400x216.jpg?h=216&amp;la=en&amp;w=400" class="areas-of-interest__image" alt="Guitar Hero" width="400" height="216">
+            <img id="music"  src="https://www.sandiego.org/-/media/images/sdta-site/things-to-do/arts-and-culture/400x216/guitar-hero-400x216.jpg?h=216&amp;la=en&amp;w=400" class="areas-of-interest__image" alt="Guitar Hero" width="400" height="216">
             <span class="areas-of-interest__text">Music</span>
-        
+
     {{#each cultureNew.music}}
     <div class="well well-sm event-item">
       <div class="event-item-left">
@@ -152,7 +160,7 @@
       </div>
     </div>
     {{/each}}
-            <img src="https://www.sandiego.org/-/media/images/sdta-site/things-to-do/arts-and-culture/400x216/cygnet-theatre-town-400x216.jpg?h=216&amp;la=en&amp;w=400" class="areas-of-interest__image" alt="Cygnet Theatre Town" width="400" height="216">
+            <img id="theatre"  src="https://www.sandiego.org/-/media/images/sdta-site/things-to-do/arts-and-culture/400x216/cygnet-theatre-town-400x216.jpg?h=216&amp;la=en&amp;w=400" class="areas-of-interest__image" alt="Cygnet Theatre Town" width="400" height="216">
             <span class="areas-of-interest__text">Theatre</span>
     {{#each cultureNew.theatre}}
     <div class="well well-sm event-item">
