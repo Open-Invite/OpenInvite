@@ -157,7 +157,8 @@ button {
 /*Design for OpenInvite Logo*/
 .logo {
   text-align: center,
-  width: 70%;
+  width: 60% !important;
+
 }
 /* Center the avatar image inside this container */
 .imgcontainer {
