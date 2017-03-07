@@ -239,3 +239,8 @@ form.search {
 .popup-container {
   padding: 3%;
 }
+
+.cultureBanner {
+    display: block;
+    text-decoration: none;
+}

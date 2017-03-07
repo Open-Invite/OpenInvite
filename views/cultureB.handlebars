@@ -61,10 +61,10 @@
   <div id="culture">
     <h1> Explore cultural activities in your city!</h1>
 
-    <div class="areas-of-interest__gallery">
-        <!-- Load the Content -->
-            <img id="attractions" src="images/attractions.jpg" class="areas-of-interest__image" alt="City Ballet Performance Art" width="400" height="216">
-            <span class="areas-of-interest__text">Attractions</span>
+
+    <div class="banner text-center">
+        <span class="areas-of-interest__text"><h2> Attractions </h2></span>
+    </div>
     {{#each cultureNew.attractions}}
     <div class="well well-sm event-item">
       <div class="event-item-left">
@@ -84,9 +84,11 @@
     {{/each}}
 
 
-
-      <img id="festivals"  src="https://www.sandiego.org/-/media/images/sdta-site/things-to-do/arts-and-culture/400x216/san-diego-film-festival-400x216.jpg?h=216&amp;la=en&amp;w=400" class="areas-of-interest__image" alt="San Diego Film Festival" width="400" height="216">
-      <span class="areas-of-interest__text">Festivals</span>
+    <div class="banner">
+      <div class ="text-center">
+        <span class="areas-of-interest__text"><h2>Festivals</h2></span>
+      </div>
+    </div>
         {{#each cultureNew.festivals}}
     <div class="well well-sm event-item">
       <div class="event-item-left">
@@ -103,8 +105,11 @@
       </div>
     </div>
     {{/each}}
-         <img id="history"  src="https://www.sandiego.org/-/media/images/sdta-site/things-to-do/arts-and-culture/400x216/mission-valley-mission-basilica-de-alcala-400x216.jpg?h=216&amp;la=en&amp;w=400" class="areas-of-interest__image" alt="Mission Valley Mission Basilica de Alcala" width="400" height="216">
-            <span class="areas-of-interest__text">History &amp; Heritage</span>
+
+    <div class="banner text-center">
+        <span class="areas-of-interest__text">History &amp; Heritage</span>
+    </div>
+
     {{#each cultureNew.heritage}}
     <div class="well well-sm event-item">
       <div class="event-item-left">
@@ -122,8 +127,9 @@
     </div>
     {{/each}}
 
-            <img id="museums"  src="https://www.sandiego.org/-/media/images/sdta-site/things-to-do/arts-and-culture/400x216/la-jolla-museum-contemporary-art-unlimited-400x216.jpg?h=216&amp;la=en&amp;w=400" class="areas-of-interest__image" alt="La Jolla Museum of Contemporary Art" width="400" height="216">
-            <span class="areas-of-interest__text">Museums &amp; Galleries</span>
+    <div class="banner text-center">
+        <span class="areas-of-interest__text">Museums &amp; Galleries</span>
+    </div>
 
     {{#each cultureNew.museums}}
     <div class="well well-sm event-item">
@@ -141,9 +147,10 @@
       </div>
     </div>
     {{/each}}
-            <img id="music"  src="https://www.sandiego.org/-/media/images/sdta-site/things-to-do/arts-and-culture/400x216/guitar-hero-400x216.jpg?h=216&amp;la=en&amp;w=400" class="areas-of-interest__image" alt="Guitar Hero" width="400" height="216">
-            <span class="areas-of-interest__text">Music</span>
 
+    <div class="banner text-center">
+        <span class="areas-of-interest__text">Music</span>
+    </div>
     {{#each cultureNew.music}}
     <div class="well well-sm event-item">
       <div class="event-item-left">
@@ -160,8 +167,11 @@
       </div>
     </div>
     {{/each}}
-            <img id="theatre"  src="https://www.sandiego.org/-/media/images/sdta-site/things-to-do/arts-and-culture/400x216/cygnet-theatre-town-400x216.jpg?h=216&amp;la=en&amp;w=400" class="areas-of-interest__image" alt="Cygnet Theatre Town" width="400" height="216">
-            <span class="areas-of-interest__text">Theatre</span>
+
+
+    <div class="banner text-center">
+        <span class="areas-of-interest__text">Theatre</span>
+    </div>
     {{#each cultureNew.theatre}}
     <div class="well well-sm event-item">
       <div class="event-item-left">
@@ -178,8 +188,7 @@
       </div>
     </div>
     {{/each}}
-    </div>
-  </div>
+
   <!-- The Modal (contains the Sign Up form) -->
 <div id="eventPopUp" class="modal">
     <span onclick="document.getElementById('eventPopUp').style.display='none'" class="close" title="Close Modal">&times;</span>
