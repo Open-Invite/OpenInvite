@@ -240,7 +240,28 @@ form.search {
   padding: 3%;
 }
 
+.titleHeader {
+    display: block;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #166C78;
+    background: #C49221;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid #e3e3e3;
+    /*border-radius: 10%;*/
+}
+
 .cultureBanner {
     display: block;
     text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #C49221;
+    background: #166C78;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid #e3e3e3;
+    /*border-radius: 10%;*/
 }

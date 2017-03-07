@@ -45,25 +45,25 @@
       </a>
 
       <div class="jumbotron text-center">
-        <img src="images/OpenInvite.png" style="width: 70%"></img>
+        <img src="images/OpenInvite.png" style="width: 70%;"></img>
         <div class="row-fluid">
-          <a href="#attractions">Attractions</a> |
-          <a href="#festivals">Festivals</a> |
-          <a href="#history">History</a> |
-          <a href="#museums">Museums</a> |
-          <a href="#music">Music</a> |
-          <a href="#theatre">Theatre</a>
+          <a href="#attractions" style="color: #4A919B !important;">Attractions</a> |
+          <a href="#festivals" style="color: #4A919B !important;">Festivals</a> |
+          <a href="#history" style="color: #4A919B !important;">History</a> |
+          <a href="#museums" style="color: #4A919B !important;">Museums</a> |
+          <a href="#music" style="color: #4A919B !important;">Music</a> |
+          <a href="#theatre" style="color: #4A919B !important;">Theatre</a>
         </div>
       </div>
     </div>
 
-    <!--dummy functionality pulled from San Diego webpage-->
-  <div id="culture">
+
+  <div class = "banner text-center titleHeader well-sm" id="culture">
     <h1> Explore cultural activities in your city!</h1>
+    </div>
 
-
-    <div class="banner text-center">
-        <span class="areas-of-interest__text"><h2> Attractions </h2></span>
+    <div class="banner text-center cultureBanner well-sm">
+        <span class="areas-of-interest__text" id="attractions"> Attractions </span>
     </div>
     {{#each cultureNew.attractions}}
     <div class="well well-sm event-item">
@@ -84,9 +84,9 @@
     {{/each}}
 
 
-    <div class="banner">
+    <div class="banner cultureBanner well-sm">
       <div class ="text-center">
-        <span class="areas-of-interest__text"><h2>Festivals</h2></span>
+        <span class="areas-of-interest__text" id="festivals">Festivals</span>
       </div>
     </div>
         {{#each cultureNew.festivals}}
@@ -106,8 +106,8 @@
     </div>
     {{/each}}
 
-    <div class="banner text-center">
-        <span class="areas-of-interest__text">History &amp; Heritage</span>
+    <div class="banner cultureBanner text-center well-sm">
+        <span class="areas-of-interest__text" id="history">History &amp; Heritage</span>
     </div>
 
     {{#each cultureNew.heritage}}
@@ -127,8 +127,8 @@
     </div>
     {{/each}}
 
-    <div class="banner text-center">
-        <span class="areas-of-interest__text">Museums &amp; Galleries</span>
+    <div class="banner cultureBanner text-center well-sm">
+        <span class="areas-of-interest__text" id="museums">Museums &amp; Galleries</span>
     </div>
 
     {{#each cultureNew.museums}}
@@ -148,8 +148,8 @@
     </div>
     {{/each}}
 
-    <div class="banner text-center">
-        <span class="areas-of-interest__text">Music</span>
+    <div class="banner cultureBanner text-center well-sm">
+        <span class="areas-of-interest__text" id="music">Music</span>
     </div>
     {{#each cultureNew.music}}
     <div class="well well-sm event-item">
@@ -169,8 +169,8 @@
     {{/each}}
 
 
-    <div class="banner text-center">
-        <span class="areas-of-interest__text">Theatre</span>
+    <div class="banner cultureBanner text-center well-sm">
+        <span class="areas-of-interest__text" id="theatre">Theatre</span>
     </div>
     {{#each cultureNew.theatre}}
     <div class="well well-sm event-item">
@@ -231,7 +231,6 @@
     </form>
 </div>
 
-  </div>
   <script src="https://use.fontawesome.com/6a9c821b61.js"></script>
   <script src="js/jquery-1.11.0.js"></script>
   <script src="js/bootstrap.js"></script>
