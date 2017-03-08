@@ -67,6 +67,8 @@ $('#newEvent').submit(function(event) {
     // Show message to use future date
   }
 
+  ga("send", "event", "newevent", "click");
+
   // Contiue submision
 });
 
