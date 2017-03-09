@@ -42,9 +42,32 @@
   -->
 
     <div class="banner">
-      <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">
-        <i class="fa fa-bars" aria-hidden="true"></i>
-      </a>
+
+      <div class="dropdown">
+        <a class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown"><i class="fa fa-bars" aria-hidden="true"></i>
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+          <li class="sidebar-brand">
+            <a href="/profile">
+              <img class="profile-picture" src="{{profile.profilePicture}}"  style="width:50px"></img>
+              {{profile.name}}
+            </a>
+          </li>
+          <hr></hr>
+          <li class="sidebar-nav-active">
+              <a href="/index"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+          </li>
+          <li>
+              <a href="/events"><i class="fa fa-calendar-check-o" aria-hidden="true"></i> My Events</a>
+          </li>
+          <li>
+              <a href="/culture"><i class="fa fa-compass" aria-hidden="true"></i> Explore Local Culture</a>
+          </li>
+          <li>
+              <a href="/help"><i class="fa fa-question-circle" aria-hidden="true"></i> FAQ</a>
+          </li>
+        </ul>
+      </div>
 
       <div class="jumbotron text-center" style="margin-bottom: 0px">
         <img src="images/OpenInvite.png" style="max-width:600px; width: 70%"></img>
