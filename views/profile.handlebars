@@ -44,25 +44,29 @@
         <a class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown"><i class="fa fa-bars" aria-hidden="true"></i>
         <span class="caret"></span></a>
         <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-          <li class="sidebar-brand">
+          <li class="active">
             <a href="/profile">
               <img class="profile-picture" src="{{profile.profilePicture}}"  style="width:50px"></img>
               {{profile.name}}
             </a>
           </li>
           <hr></hr>
-          <li class="sidebar-nav-active">
+          <li>
               <a href="/index"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
           </li>
+          <br/>
           <li>
               <a href="/events"><i class="fa fa-calendar-check-o" aria-hidden="true"></i> My Events</a>
           </li>
+          <br/>
           <li>
               <a href="/culture"><i class="fa fa-compass" aria-hidden="true"></i> Explore Local Culture</a>
           </li>
+          <br/>
           <li>
               <a href="/help"><i class="fa fa-question-circle" aria-hidden="true"></i> FAQ</a>
           </li>
+          <br/>
         </ul>
       </div>
       <div class="jumbotron text-center">
