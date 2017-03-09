@@ -21,6 +21,11 @@ h1,h2,h3{
   text-align: center;
 }
 
+.dropdown-menu {
+  top:33px;
+  position: fixed;
+}
+
 .profile-picture {
   border-radius: 100%;
 }
