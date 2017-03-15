@@ -332,22 +332,6 @@
       "description": "Going to go dance at Round Table."
     },
     {
-      "id": 8,
-      "name": "Coachella",
-      "host": {
-        "id": 9,
-        "name":"Alex Hermstad"
-      },
-      "location": "Warren Mall",
-      "latitude": 32.8885448,
-      "longitude": -117.24166079999999,
-      "datetime": "1 January 2019, 04:10 PM",
-      "going": [],
-      "cancelled": [],
-      "tags": ["festivals"],
-      "description": "This is a festival right?"
-    },
-    {
       "id": 9,
       "name": "Festival of Museums",
       "host": {
