@@ -184,7 +184,7 @@
       "location": "The Lion's Share",
       "latitude": 0,
       "longitude": 0,
-      "datetime": "01 March 2017, 03:10 PM",
+      "datetime": "25 March 2017, 03:10 PM",
       "going": [
         {
           "name": "Alex Hermstad",
@@ -245,11 +245,11 @@
       "location": "The Village, UCSD",
       "latitude": 32.888295,
       "longitude": -117.242696,
-      "datetime": "11 March 2017, 03:10 PM",
+      "datetime": "21 March 2017, 03:10 PM",
       "going": [],
       "cancelled": [],
       "tags": [],
-      "description": "It's ironic because I am not known to get up before noon."
+      "description": "It's ironic (or not) because I am not known to get up before noon."
     },
     {
       "id": 4,
@@ -261,7 +261,7 @@
       "location": "Whole Foods",
       "latitude": 32.868396,
       "longitude": -117.231228,
-      "datetime": "02 March 2017, 03:10 PM",
+      "datetime": "27 March 2017, 03:10 PM",
       "going": [],
       "cancelled": [],
       "tags": [],
@@ -293,7 +293,7 @@
       "location": "CSE 100000000000",
       "latitude": 32.881486,
       "longitude": -117.233896,
-      "datetime": "05 March 2017, 03:10 PM",
+      "datetime": "01 March 2017, 03:10 PM",
       "going": [],
       "cancelled": [],
       "tags": [],
@@ -301,19 +301,35 @@
     },
     {
       "id": 7,
-      "name": "The Warren Mall Prom",
+      "name": "Go to Ralphs",
       "host": {
         "id": 9,
         "name":"Alex Hermstad"
       },
-      "location": "Warren Mall",
+      "location": "Ralphs",
+      "latitude": 32.8885448,
+      "longitude": -117.24166079999999,
+      "datetime": "12 May 2017, 04:10 PM",
+      "going": [],
+      "cancelled": [],
+      "tags": [],
+      "description": "I must get some groceries at Ralphs"
+    },
+    {
+      "id": 7,
+      "name": "Dance at Round Table",
+      "host": {
+        "id": 9,
+        "name":"Alex Hermstad"
+      },
+      "location": "Round Table",
       "latitude": 32.8885448,
       "longitude": -117.24166079999999,
       "datetime": "12 May 2017, 04:10 PM",
       "going": [],
       "cancelled": [],
       "tags": ["dance"],
-      "description": "Come dance at the Warren Mall for Prom."
+      "description": "Going to go dance at Round Table."
     },
     {
       "id": 8,
@@ -333,12 +349,12 @@
     },
     {
       "id": 9,
-      "name": "The San Diego Museum Festival",
+      "name": "Festival of Museums",
       "host": {
         "id": 9,
         "name":"Alex Hermstad"
       },
-      "location": "Warren Mall",
+      "location": "UTC",
       "latitude": 32.8885448,
       "longitude": -117.24166079999999,
       "datetime": "2 January 2018, 04:10 PM",
@@ -472,7 +488,7 @@
       "tags": ["festivals"],
       "description": "If you enjoy celebrity spotting, the red carpet at the San Diego Film Festival is your best bet. The festival spans five days every September with over 100 independent and studio films shown in two locations: La Jolla and downtown's Gaslamp Quarter. Acclaimed films like '12 Years A Slave' and 'Silver Linings Playbook' were both screened at the festival before becoming Academy Award winners. Interviews with filmmakers and actors also take place throughout the festival run. Like most of the film organizations in town, this group also programs screenings throughout the year."
     },
-    
+
     {
       "id": 2,
       "name": "Best Coast Beer Fest 2017",
@@ -583,4 +599,3 @@
   ]
  }
 }
-
