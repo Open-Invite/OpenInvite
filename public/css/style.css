@@ -281,6 +281,8 @@ form.search {
 }
 
 .btn {
+  /*font-variant: small-caps;
+  font-weight: bold;*/
   border-color: #166c78;
   background-color: #166c78;
   color: #CDCDCD;
