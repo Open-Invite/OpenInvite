@@ -255,8 +255,8 @@ form.search {
     text-decoration: none;
     font-size: 1.5em;
     font-weight: bold;
-    color: #CDCDCD;
-    background: #166C78;
+    color: #e3e3e3;
+    background: #8e8a6f;
 /*    color: #166C78;
     background: #C49221;*/
     margin-left: 10px;
@@ -281,12 +281,12 @@ form.search {
 }
 
 .btn {
-  border-color: #85D893;
-  background-color: #85D893;
-  color: #166C78;
+  border-color: #166c78;
+  background-color: #166c78;
+  color: #CDCDCD;
 }
 .btn:hover {
-  border-color: #85D893;
-  background-color: #85D893;
-  color: #166C78;
+  border-color: #166c78;
+  background-color: #166c78;
+  color: #CDCDCD;
 }
