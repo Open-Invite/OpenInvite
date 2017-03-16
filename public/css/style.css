@@ -161,6 +161,7 @@ button {
     width: 45% !important;
     padding: 10px 18px !important;
     background-color: #f44336 !important;
+    color: #ffffff!important;
 }
 
 /*Design for OpenInvite Logo*/
@@ -277,4 +278,15 @@ form.search {
     margin-right: 10px;
     border: 1px solid #e3e3e3;
     /*border-radius: 10%;*/
+}
+
+.btn {
+  border-color: #166c78;
+  background-color: #166c78;
+  color: #CDCDCD;
+}
+.btn:hover {
+  border-color: #166c78;
+  background-color: #166c78;
+  color: #CDCDCD;
 }
